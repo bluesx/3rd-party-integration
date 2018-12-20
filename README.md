@@ -5,5 +5,5 @@
 * [库存信息](#)
   + [实时库存](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/inventories.md)
 * [用户信息](#)
-  + [用户信息查询](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/erpUserInfoUpdate.md)
+  + [用户信息查询](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/userInfo.md)
   + [用户信息更新](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/erpUserInfoUpdate.md)
