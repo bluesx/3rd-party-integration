@@ -3,6 +3,6 @@
   + [订单推送](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/order-push.md)
   + [订单查询](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/orderList.md)
 * [库存信息](#)
-  + [库存信息](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/inventories.md)
-  + [库存信息](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/erpUserInfoUpdate.md)
+  + [实时库存](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/inventories.md)
 * [用户信息](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/userInfo.md)
+  + [用户信息更新](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/erpUserInfoUpdate.md)
