@@ -1,4 +1,4 @@
-# 第三方对接文档，主要包含线下ERP部分
+## 第三方对接文档，接口方式
 * [请求注册](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/accessToken.md)
 * [订单同步](#)
   + [订单推送](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/order-push.md)
@@ -12,3 +12,17 @@
 * [盘点信息](#)
   + [盘点计划商品信息](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/inventoryGoodsInfo.md)
   + [盘点审批回传商品](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/inventoryApprove.md)
+## 第三方对接文档，数据库方式
+* [订单同步](#)
+  + [订单推送](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/database/orders-sync.md)
+  + [订单查询](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/orderList.md)
+* [库存信息](#)
+  + [实时库存](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/goods_stock.md)
+* [会员信息](#)
+  + [会员信息查询](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/userInfo.md)
+  + [会员信息更新](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/erpUserInfoUpdate.md)
+* [商品价格](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/goods_multi_price.md)
+* [盘点信息](#)
+  + [盘点计划商品信息](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/inventoryGoodsInfo.md)
+  + [盘点审批回传商品](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/inventoryApprove.md)
+
