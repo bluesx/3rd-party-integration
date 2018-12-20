@@ -1,4 +1,4 @@
-## 第三方对接文档，接口方式
+## 第三方对接文档，接口方案
 * [请求注册](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/accessToken.md)
 * [订单同步](#)
   + [订单推送](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/order-push.md)
@@ -12,7 +12,7 @@
 * [盘点信息](#)
   + [盘点计划商品信息](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/inventoryGoodsInfo.md)
   + [盘点审批回传商品](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/inventoryApprove.md)
-## 第三方对接文档，数据库方式
+## 第三方对接文档，数据库方案
 * [订单同步](#)
   + [订单推送](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/database/orders-sync.md)
 * [库存信息](#)
