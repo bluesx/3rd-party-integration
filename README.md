@@ -8,4 +8,6 @@
   + [会员信息查询](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/userInfo.md)
   + [会员信息更新](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/erpUserInfoUpdate.md)
 * [商品价格](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/multiPrice.md)
-* [盘点信息](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/inventory.md)
+* [盘点信息](#)
+  + [盘点信息](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/inventoryGoodsInfo.md)
+  + [盘点信息](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/inventoryApprove.md)
