@@ -16,8 +16,8 @@
   "tradesList":
     {
       "realPay": 180,//实付款
-      "receiverName": "黎正华",//收货人姓名
-      "mobile": "17633702820",//收货人手机号码
+      "receiverName": "老王",//收货人姓名
+      "mobile": "13800001111",//收货人手机号码
       "postFee": 0,//运费
       "orderList": [//商品列表
         {
@@ -30,12 +30,12 @@
       "discount": 0,//优惠金额
       "paystyle": "wx",//支付方式:ali (支付宝) ，wx (微信)， bil(快钱)， unionPay(银联)， health_insurance（医保），cash（现金）
       "poststyle": 170,//购买方式，150：送货上门；160：门店自提；170：门店直购
-      "tId": 1001661501752197580,//订单编号
+      "tId": 1002241501752197580,//订单编号
       "uid": "123",//门店编码
       "totalPay": 180,//商品金额+运费
       "totalFee": 180,//商品金额
       "receicerAddress": "",//收货地址
-      "memberMobile": "17633702820",//会员手机号码
+      "memberMobile": "13800001111",//会员手机号码
       "status": 1//订单状态：1：已付款（未退款），0：已退款
     },
 }
