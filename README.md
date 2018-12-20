@@ -14,7 +14,7 @@
   + [盘点审批回传商品](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/inventoryApprove.md)
 ## 第三方对接文档，数据库方案
 * [订单同步](#)
-  + [订单推送](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/database/orders-sync.md)
+  + [订单推送](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/database/orders_sync.md)
 * [库存信息](#)
   + [实时库存](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/goods_stock.md)
 * [会员信息](#)
