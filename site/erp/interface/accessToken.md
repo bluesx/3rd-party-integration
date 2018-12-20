@@ -5,7 +5,7 @@
 #### 1.2 请求方式
 > POST
 #### 1.3 url
-> /offline/tradesList
+> /offline/accessToken
 #### 1.4 数据方向
 > 系统方至商户方
 #### 1.5 请求参数
