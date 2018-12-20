@@ -12,12 +12,12 @@
 | 参数名称 | 参数类型 | 是否必须 | 示例值 | 参数描述  |
 | :---         |     :---      |     :--- | :--- | :--- |
 | siteId   | 字符串     | 否    | 100224    | 商户ID |
-| accessKey   | 字符串     | 否    | "acfde325c8b9bbgyR57B"    | 预生成的accessKey |
+| accessKey   | 字符串     | 否    | acfde325c8b9bbgyR57B    | 预生成的accessKey |
 --------------------- 
 #### 1.6 返回参数
 | 参数名称 | 参数类型 | 是否必须 | 示例值 | 参数描述  |
 | :---         |     :---      |     :--- | :--- | :--- |
-| accessToken   | 字符串     | 是    | "aaclieEY38=c#MUYccw"    | 返回预生成的accessToken |
+| accessToken   | 字符串     | 是    | aaclieEY38=c#MUYccw   | 返回预生成的accessToken |
 | code   | 整型     | 是    | 1    | 返回代码,1:成功；0:失败 |
 | msg   | 字符串    | 是    | 请求成功    | 返回码,1:成功；0:失败 |
 --------------------- 
