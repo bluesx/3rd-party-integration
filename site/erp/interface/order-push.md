@@ -26,7 +26,7 @@
         }
       ],
       "discount": 0,//优惠金额
-      "paystyle": "wx",//付款方式wx：微信
+      "paystyle": "wx",//支付方式:ali (支付宝) ，wx (微信)， bil(快钱)， unionPay(银联)， health_insurance（医保），cash（现金）
       "poststyle": 170,//购买方式，150：送货上门；160：门店自提；170：门店直购
       "tId": 1001661501752197580,//订单编号
       "uid": "123",//门店编码
