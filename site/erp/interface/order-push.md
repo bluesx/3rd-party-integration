@@ -55,4 +55,4 @@
 }
 ```
 #### 1.7 特殊说明
-* storeUserMobile属性目前仅100309要求
+* storeUserMobile属性目前仅提供给100309
