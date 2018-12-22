@@ -15,7 +15,7 @@
 | trades_id   | 订单ID     | 字符串    | 20    |订单唯一标识|
 | unit_id   | 门店编码     | 字符串    | 20    |商户门店编码，商户范围内唯一|
 | total_pay   | 实付款     | 整型    | 11    |实付金额，单位:分(RMB)|
-| pay_style   | 支付方式     | 字符串    | 30    |ali (支付宝) ，wx (微信)， bil(快钱)， unionPay(银联)， health_insurance（医保），cash（现金）|
+| pay_style   | 支付方式     | 字符串    | 30    |ali (支付宝) ，wx (微信)， </br>bil(快钱)， unionPay(银联)，</br> health_insurance（医保），cash（现金）|
 | post_style   | 配送方式     | 整型    | 11    |商户门店编码，商户范围内唯一|
 | discount   | 优惠金额     | 整型    | 11    |优惠金额，单位:分(RMB)|
 | goods_fee   | 商品金额     | 整型    | 11    |商品金额，单位:分(RMB)|
