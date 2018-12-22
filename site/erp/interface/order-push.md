@@ -21,8 +21,8 @@
 | gcode   | 字符串     | 是    | 20058962   | 商品编码 |
 | gnum   | 整形     | 是    | 1   | 购买数量 |
 | discount   | 整形     | 否    | 1   | 优惠金额，单位:分(RMB) |
-| paystyle   | 字符串     | 是    | wx   | 支付方式:ali (支付宝) ，</br>wx (微信)， bil(快钱)，</br> unionPay(银联)，</br> health_insurance（医保），cash（现金） |
-| poststyle   | 字符串     | 否    | 170   | 购买方式，150：送货上门；160：门店自提；</br>170：门店直购 |
+| paystyle   | 字符串     | 是    | wx   | 支付方式:ali (支付宝) ，</br>wx (微信)，</br> bil(快钱)，</br> unionPay(银联)，</br> health_insurance（医保），</br>cash（现金） |
+| poststyle   | 字符串     | 否    | 170   | 购买方式，</br>150：送货上门；</br>160：门店自提；</br>170：门店直购 |
 | uid   | 字符串     | 否    | 120   | 门店编码 |
 | storeUserMobile   | 字符串     | 否    | 13833334444   | 下单店员手机 |
 | totalPay   | 整形     | 是    | 180   | 总金额(商品金额+运费)，单位:分(RMB) |
