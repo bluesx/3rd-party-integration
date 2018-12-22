@@ -6,7 +6,7 @@
 > POST
 #### 触发条件
 #### 1.3 url
-> /pandian/approve
+> /inventory/approve
 #### 1.4 数据方向
 > 系统方至商户方
 #### 1.5 请求参数
