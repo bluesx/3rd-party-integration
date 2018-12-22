@@ -21,7 +21,7 @@
 * [库存信息](#)
   + [实时库存](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/database/goods_stock.md)
 * [会员信息](#)
-  + [会员信息查询](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/user_info.md)
+  + [会员信息查询](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/database/user_info.md)
   + [会员信息更新](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/erpUserInfoUpdate.md)
 * [商品价格](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/goods_multi_price.md)
 * [盘点信息](#)
