@@ -22,9 +22,9 @@
 | post_fee   | 运费     | 整型    | 11    |实付金额，单位:分(RMB)|
 | member_mobile   | 下单会员手机     | 字符串    | 20    |下单会员手机|
 | trades_status   | 订单状态     | 整型    | 11    |订单状态：1：已付款（未退款），0：已退款|
-| receiver_name   | 收货人名称     | 字符串    | 20    |商户门店编码，商户范围内唯一|
-| receiver_mobile   | 收货人手机     | 字符串    | 20    |商户门店编码，商户范围内唯一|
-| receiver_address   | 收货人地址     | 字符串    | 255    |商户门店编码，商户范围内唯一|
+| receiver_name   | 收货人名称     | 字符串    | 20    |收货人名称|
+| receiver_mobile   | 收货人手机     | 字符串    | 20    |收货人手机|
+| receiver_address   | 收货人地址     | 字符串    | 255    |收货人地址|
 | create_time   |      | timestamp    |     | |
 | update_time   |      | timestamp    |     | |
 --------------------- 
