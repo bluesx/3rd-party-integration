@@ -19,7 +19,7 @@
 * [订单同步](#)
   + [订单推送](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/database/orders_sync.md)
 * [库存信息](#)
-  + [实时库存](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/goods_stock.md)
+  + [实时库存](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/database/goods_stock.md)
 * [会员信息](#)
   + [会员信息查询](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/user_info.md)
   + [会员信息更新](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/erpUserInfoUpdate.md)
