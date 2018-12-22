@@ -23,8 +23,8 @@
 | actual_store   | 字符串    | 是    | 12    | 实际盘点数 |
 | quality   | 字符串    | 是    | 好    | 质量 |
 | inventory_checker   | 字符串    | 是    | 李浩    | 盘点人(姓名) |
-| confirm_checker   | 字符串    | 是    | 李浩    | 监盘人 (姓名) |
-| audit_checker   | 字符串    | 是    | 李浩   | 审核人 (姓名) |
+| confirm_checker   | 字符串    | 是    | 李浩    | 监盘人(姓名) |
+| audit_checker   | 字符串    | 是    | 李浩   | 审核人(姓名) |
 --------------------- 
 #### 1.5 返回参数
 暂无要求，可双方协商
