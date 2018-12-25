@@ -41,7 +41,7 @@
     {
       "realPay": 180,//实付款
       "receiverName": "老王",//收货人姓名
-      "mobile": "13800001111",//收货人手机号码
+      "receiverMobile": "13800001111",//收货人手机号码
       "postFee": 0,//运费
       "orderList": [//商品列表
         {
@@ -60,7 +60,8 @@
       "totalPay": 180,//商品金额+运费
       "totalFee": 180,//商品金额
       "receicerAddress": "",//收货地址
-      "memberMobile": "13800001111",//会员手机号码
+      "memberMobile": "13800001111",//订单所属会员手机号码
+      "memberName":"老张",//订单所属会员名字
       "status": 1//订单状态：1：已付款（未退款），0：已退款
     },
 }
