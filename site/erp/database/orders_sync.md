@@ -34,16 +34,25 @@
 | update_time   |      | timestamp    |     | |
 --------------------- 
 ```
-create table b_trades_goods
+create table b_trades
 (
  trades_id varchar(20) not null
   primary key,
- goods_code varchar(20),
- goods_price numeric(16,4),
- goods_specification varchar(255),
- goods_num numeric(16,4)
+ unit_id varchar(11) not null,
+ total_pay numeric(16,4),
+ pay_style varchar(30),
+ post_style numeric(16,4),
+ discount numeric(16,4),
+ goods_fee numeric(16,4),
+ post_fee numeric(16,4),
+ member_mobile varchar(20),
+ trades_status int,
+ receiver_name varchar(20),
+ receiver_mobile varchar(20),
+ receiver_address varchar(255),
+ update_time datetime,
+ create_time datetime
 )
-go
 ```
 #### 1.6 商品表(b_trades_goods)结构
 | 字段名称 | 字段释义 | 数据类型 | 长度 | 备注 | 
@@ -54,6 +63,16 @@ go
 | goods_specification   | 商品规格     | 字符串    | 255    |  |
 | goods_num   | 商品购买数量     | 整型    | 11    | |
 --------------------- 
-
+```
+create table b_trades_goods
+(
+ trades_id varchar(20) not null
+  primary key,
+ goods_code varchar(20),
+ goods_price numeric(16,4),
+ goods_specification varchar(255),
+ goods_num numeric(16,4)
+)
+```
 #### 1.7 特殊说明
 * store_user_mobile字段目前仅提供给100309
