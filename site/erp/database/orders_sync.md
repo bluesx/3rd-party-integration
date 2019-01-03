@@ -33,6 +33,18 @@
 | create_time   |      | timestamp    |     | |
 | update_time   |      | timestamp    |     | |
 --------------------- 
+```
+create table b_trades_goods
+(
+ trades_id varchar(20) not null
+  primary key,
+ goods_code varchar(20),
+ goods_price numeric(16,4),
+ goods_specification varchar(255),
+ goods_num numeric(16,4)
+)
+go
+```
 #### 1.6 商品表(b_trades_goods)结构
 | 字段名称 | 字段释义 | 数据类型 | 长度 | 备注 | 
 | :---         |     :---      |     :--- | :---      | :---      | 
@@ -42,5 +54,6 @@
 | goods_specification   | 商品规格     | 字符串    | 255    |  |
 | goods_num   | 商品购买数量     | 整型    | 11    | |
 --------------------- 
+
 #### 1.7 特殊说明
 * store_user_mobile字段目前仅提供给100309
