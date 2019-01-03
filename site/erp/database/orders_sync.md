@@ -34,6 +34,8 @@
 | update_time   |      | timestamp    |     | |
 --------------------- 
 ```
+script for ms-sqlserver
+------------------------
 create table b_trades
 (
  trades_id varchar(20) not null
@@ -64,6 +66,8 @@ create table b_trades
 | goods_num   | 商品购买数量     | 整型    | 11    | |
 --------------------- 
 ```
+script for ms-sqlserver
+------------------------
 create table b_trades_goods
 (
  trades_id varchar(20) not null
