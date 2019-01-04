@@ -21,14 +21,14 @@
 | receiverMobile   | 字符串     | 是    | 13800001111   | 收货人手机 |
 | receicerAddress   | 字符串     | 是    | 北美市美帝路111号   | 收货人地址 |
 | postFee   | 整型     | 是    | 150   | 运费，单位:分(RMB) |
-| gprice   | 整型     | 是    | 1500   | 商品价格，单位:分(RMB) |
-| gsc   | 字符串     | 是    | 10mg*100s   | 商品规格 |
-| gcode   | 字符串     | 是    | 20058962   | 商品编码 |
-| gnum   | 整型     | 是    | 1   | 购买数量 |
+| goodsPrice   | 整型     | 是    | 1500   | 商品价格，单位:分(RMB)(pre:gprice) |
+| goodsSpecification   | 字符串     | 是    | 10mg*100s   | 商品规格(pre:gsc) |
+| goodsCode   | 字符串     | 是    | 20058962   | 商品编码(pre:gcode) |
+| goodsNumber   | 整型     | 是    | 1   | 购买数量(pre:gnum) |
 | discount   | 整型     | 否    | 1   | 优惠金额，单位:分(RMB) |
 | paystyle   | 字符串     | 是    | wx   | 支付方式::</br>ali (支付宝) ，</br>wx (微信)，</br> bil(快钱)，</br> unionPay(银联)，</br> health_insurance（医保），</br>cash（现金） |
 | poststyle   | 字符串     | 否    | 170   | 购买方式::</br>150：送货上门；</br>160：门店自提；</br>170：门店直购 |
-| uid   | 字符串     | 否    | 120   | 门店编码 |
+| storeNumber   | 字符串     | 否    | 120   | 门店编码(pre:uid) |
 | storeUserMobile   | 字符串     | 否    | 13833334444   | 下单店员手机 |
 | totalPay   | 整型     | 是    | 180   | 总金额(商品金额+运费)，单位:分(RMB) |
 | totalFee   | 整型     | 否    | 180   | 商品金额，单位:分(RMB) |
