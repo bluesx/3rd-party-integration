@@ -50,7 +50,7 @@ create table b_trades
  post_fee numeric(16,4),
  member_mobile varchar(20),
  trades_source int(11),
- trades_status int,
+ trades_status int(11),
  receiver_name varchar(20),
  receiver_mobile varchar(20),
  receiver_address varchar(255),
