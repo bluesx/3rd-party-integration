@@ -26,6 +26,7 @@
 | goods_fee   | 商品金额     | 整型    | 11    |商品金额，单位:分(RMB)|
 | post_fee   | 运费     | 整型    | 11    |实付金额，单位:分(RMB)|
 | member_mobile   | 下单会员手机     | 字符串    | 20    |下单会员手机|
+| trades_source   | 下单来源     | 整型    | 160    |订单来源: </br>110 (网站)，</br>120（微信），</br>130（app）, </br>140（店员帮用户下单）,</br>160 (支付宝生活号)，</br>9999（其它）|
 | trades_status   | 订单状态     | 整型    | 11    |订单状态：1：已付款（未退款），0：已退款|
 | receiver_name   | 收货人名称     | 字符串    | 20    |收货人名称|
 | receiver_mobile   | 收货人手机     | 字符串    | 20    |收货人手机|
@@ -48,6 +49,7 @@ create table b_trades
  goods_fee numeric(16,4),
  post_fee numeric(16,4),
  member_mobile varchar(20),
+ trades_source int(11),
  trades_status int,
  receiver_name varchar(20),
  receiver_mobile varchar(20),
@@ -80,3 +82,4 @@ create table b_trades_goods
 ```
 #### 1.7 特殊说明
 * store_user_mobile字段目前仅提供给100309
+* trades_source字段目前仅提供给100271
