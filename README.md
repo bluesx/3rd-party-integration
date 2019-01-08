@@ -15,6 +15,8 @@
 * [盘点信息](#)
   + [盘点计划商品信息](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/inventoryGoodsInfo.md)
   + [盘点审批回传商品](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/inventoryApprove.md)
+  + [实时查询门店品类](#)
+  + [实时库存确定盈亏](#)
 ## 第三方对接——数据库方案
 * [订单同步](#)
   + [订单推送](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/database/orders_sync.md)
