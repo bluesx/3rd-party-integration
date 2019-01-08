@@ -22,10 +22,20 @@
 #### 1.6 请求数据
  ``` 
 {
-  "siteId":100190,//商户ID，
-  "storeNumber":"A316",//门店编码
-  "goodsCode":"K1232313",//商品编码
-  "storeGoodsPrice":"39.79"//门店价格；元为单位
+  "siteId":100190,//商户站点，
+  "goodlist":[
+      {
+        "storeNumber":"A316",//门店编码
+        "goodsCode":"K1232313",//商品编码
+        "storeGoodsPrice":"39.79"//门店价格；元为单位
+      },
+      {
+        "storeNumber":"A316",
+        "goodsCode":"AC15220",
+        "storeGoodsPrice":"39.79"
+      },
+      ……
+] 
 }
 ```
 #### 1.7 返回参数
