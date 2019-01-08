@@ -8,7 +8,7 @@
 #### 1.2 请求方式
 > GET
 #### 1.3 url
-> /goods/multiPrice
+> /goods/multiPricePull
 #### 1.4 数据方向
 > 系统方至商户方
 #### 1.5 请求参数
