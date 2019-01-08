@@ -20,20 +20,20 @@
 #### 1.7 请求成功(更新价格成功)
 ```
 {
-	"code":1,//，
-	"goodlist":[
-			{
-				"store_number":"A316",//门店编码
-				"goods_code":"K1232313",//商品编码
-				"shop_price":"39.79"//门店价格；元为单位
-			},
-			{
-				"store_number":"A316",
-				"goods_code":"AC15220",
-				"shop_price":"39.79"
-			},
-			……
-]	
+  "code":1,//，
+  "goodlist":[
+     {
+	"store_number":"A316",//门店编码
+	"goods_code":"K1232313",//商品编码
+	"shop_price":"39.79"//门店价格；元为单位
+     },
+     {
+	"store_number":"A316",
+	"goods_code":"AC15220",
+	"shop_price":"39.79"
+     },
+     ……
+	    ]	
 }
 ```
 #### 1.8 请求成功(更新价格失败)
