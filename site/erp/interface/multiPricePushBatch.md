@@ -22,7 +22,7 @@
  ``` 
 {
   "siteId":100190,//商户站点，
-  "goodlist":[
+  "goodslist":[
       {
         "storeNumber":"A316",//门店编码
         "goodsCode":"K1232313",//商品编码
