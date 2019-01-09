@@ -15,7 +15,7 @@
 | :---         |     :---      |     :--- | :--- | :--- |
 | siteId   | 字符串     | 是    | 1001190    | 商户ID |
 | goodsCode   | 字符串    | 是    | 544744    | 商品编码 |
-| storeNumber   | 字符串     | 是    | 0010   |门店编码|
+| storeNumber   | 字符串     | 是    | 0010   |门店编码，可支持多个门店对应同一商品|
 | storeGoodsPrice   | 整型    | 是    | 2022   | 门店商品现价，单位:分(RMB) |
 --------------------- 
 #### 1.6 请求数据
@@ -29,7 +29,7 @@
         "storeGoodsPrice":"3979"//门店价格；分为单位
       },
       {
-        "storeNumber":"A316",
+        "storeNumber":"A316,A317,A318",//多个门店
         "goodsCode":"AC15220",
         "storeGoodsPrice":"3979"
       },
