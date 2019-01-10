@@ -23,18 +23,17 @@
  ``` 
 {
   "siteId":100190,//商户站点，
+  "type":"40"
   "goodslist":[
       {
         "storeNumber":"A316",//门店编码
         "goodsCode":"K1232313",//商品编码
-        "storeGoodsPrice":"3979",//门店价格；分为单位
-        "type":"40"
+        "storeGoodsPrice":"3979"//门店价格；分为单位
       },
       {
         "storeNumber":"A316,A317,A318",//多个门店
         "goodsCode":"AC15220",
-        "storeGoodsPrice":"3979",
-        "type":"40"
+        "storeGoodsPrice":"3979"
       },
       ……
 ] 
