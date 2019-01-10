@@ -33,3 +33,4 @@
   + [实时库存确定盈亏](#)
 ## 第三方对接——特定对接
 * [100271&ping'an](#)
+  + [51测试环境说明](https://github.com/bluesx/3rd-party-integration/blob/master/site/common/base/test_env.md)
