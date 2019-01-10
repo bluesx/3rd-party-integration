@@ -17,6 +17,7 @@
 | goodsCode   | 字符串    | 是    | 544744    | 商品编码 |
 | storeNumber   | 字符串     | 是    | 0010   |门店编码，可支持多个门店对应同一商品，逗号(,)分割|
 | storeGoodsPrice   | 整型    | 是    | 2022   | 门店商品现价，单位:分(RMB) |
+| type   | 整型    | 是    | 10   | 价格体系类型::<br/> 10(总部基础价格)<br/>20(市级价)<br/>30(区级价)<br/>40(门店价) |
 --------------------- 
 #### 1.6 请求数据
  ``` 
@@ -26,12 +27,14 @@
       {
         "storeNumber":"A316",//门店编码
         "goodsCode":"K1232313",//商品编码
-        "storeGoodsPrice":"3979"//门店价格；分为单位
+        "storeGoodsPrice":"3979",//门店价格；分为单位
+        "type":"40"
       },
       {
         "storeNumber":"A316,A317,A318",//多个门店
         "goodsCode":"AC15220",
-        "storeGoodsPrice":"3979"
+        "storeGoodsPrice":"3979",
+        "type":"40"
       },
       ……
 ] 
