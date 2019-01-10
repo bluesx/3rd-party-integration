@@ -31,4 +31,5 @@
   + [盘点审批回传商品](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/database/inventory_approve.md)
   + [实时查询门店品类](#)
   + [实时库存确定盈亏](#)
-
+## 第三方对接——特定对接
+* [100271&ping'an](#)
