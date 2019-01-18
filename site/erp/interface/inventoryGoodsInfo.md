@@ -5,7 +5,7 @@
 #### 1.2 请求方式
 > POST
 #### 1.3 url
-> /orders/storage
+> /inventory/goodsInfo
 #### 1.4 数据方向
 > 商户方至系统方
 #### 1.5 请求参数
