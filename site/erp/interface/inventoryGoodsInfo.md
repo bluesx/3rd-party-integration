@@ -5,7 +5,7 @@
 #### 1.2 请求方式
 > POST
 #### 1.3 url
-> ERP：
+* ERP：
 > /inventory/goodsInfo
 #### 1.4 数据方向
 > ERP->线上系统
