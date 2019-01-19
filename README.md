@@ -15,7 +15,7 @@
 * [盘点信息](#)
   + [盘点接口交互](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/inventoryInteraction.md)
   + [盘点计划就绪通知](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/inventoryPlanReady.md)
-  + [盘点任务就绪通知](#)
+  + [盘点任务就绪通知](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/inventoryTaskReady.md)
   + [盘点计划商品信息](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/inventoryGoodsInfo.md)
   + [盘点审批回传商品](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/inventoryApprove.md)
   + [实时查询门店品类](#)
