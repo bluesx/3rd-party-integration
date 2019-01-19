@@ -27,7 +27,7 @@
   + [会员信息更新](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/database/user_info.md)
 * [商品价格](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/database/goods_multi_price.md)
 * [盘点信息](#)
-  + [盘点交互概览](#)
+  + [盘点接口交互](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/inventoryInteraction.md)
   + [盘点计划生成通知](#)
   + [盘点计划商品信息](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/database/inventory_goods_info.md)
   + [盘点审批回传商品](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/database/inventory_approve.md)
