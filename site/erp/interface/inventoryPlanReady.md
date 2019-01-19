@@ -5,7 +5,8 @@
 > 盘点计划生成时通知到系统方
 #### 1.2 请求方式
 > POST
-#### 1.3 url(ERP定义)
+#### 1.3 url
+* ERP：
 > /inventory/planReady
 #### 1.4 数据方向
 > 线上系统至ERP
