@@ -23,8 +23,8 @@
 | goodsNo   | 字符串    | 是    |   90301104  | 商品编码 |
 | goodsName   | 字符串    | 是    |   京儿铁冲剂  | 商品名称 |
 | inventoryTaskNo   | 字符串    | 是    |   90301104  | 盘点任务号 |
-| batchId   | 字符串    | 是    |   90301104  | 批号ID |
-| batchNo   | 字符串    | 是    |   90301104  | 批号 |
+| batchId   | 字符串    | 是    |   90301104  | 商品批次 |
+| batchNo   | 字符串    | 是    |   90301104  | 商品批号 |
 | actualInventoryQuatity   | 数值    | 是    |   15  | 实际盘点数量 |
 | accountQuatity   | 数值    | 是    |   15  | 账面库存数量 |
 | manufacturer   | 字符串    | 是    |   广州市合生元生物制品有限公司  | 生产厂商 |
