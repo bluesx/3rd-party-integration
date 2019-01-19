@@ -25,7 +25,8 @@
 | inventoryTaskNo   | 字符串    | 是    |   90301104  | 盘点任务号 |
 | batchId   | 字符串    | 是    |   90301104  | 批号ID |
 | batchNo   | 字符串    | 是    |   90301104  | 批号 |
-| actualQuatity   | 数值    | 是    |   15  | 实际数量 |
+| actualInventoryQuatity   | 数值    | 是    |   15  | 实际盘点数量 |
+| accountQuatity   | 数值    | 是    |   15  | 账面库存数量 |
 | manufacturer   | 字符串    | 是    |   广州市合生元生物制品有限公司  | 生产厂商 |
 --------------------- 
 #### 1.6 返回成功(匹配到库存信息)
