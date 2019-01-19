@@ -21,7 +21,7 @@
 | msg   | 字符串    | 是    | 成功    | 成功或失败消息 |
 | barCode   | 字符串    | 是    | 2    | 条码 |
 | goodsno   | 字符串    | 是    |   90301104  | 商品编码 |
-| inventoryTaskNo   | 字符串    | 是    |   90301104  | 商品编码 |
+| inventoryTaskNo   | 字符串    | 是    |   90301104  | 盘点任务号 |
 | batchId   | 字符串    | 是    |   90301104  | 批号ID |
 | batchNo   | 字符串    | 是    |   90301104  | 批号 |
 | actualQuatity   | 数值    | 是    |   15  | 实际数量 |
