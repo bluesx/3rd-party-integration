@@ -49,7 +49,7 @@
         "unitNo" : "2",
         "goodsCode" : "90301104",
         "specification" : "90301104",
-        "STATE" : "0",//状态 0 正常，1不正常，2删除
+        "state" : "0",//状态 0 正常，1不正常，2删除
         "inventoryQuantity" : "16.0"
     }, {
         "unitNo" : "4",
