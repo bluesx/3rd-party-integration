@@ -15,8 +15,8 @@
 #### 1.5 请求参数
 | 参数名称 | 参数类型 | 是否必须 | 示例值 | 参数描述  |
 | :---         |     :---      |     :--- | :--- | :--- |
-| inventoryNumber   | 字符串     | 是    | PD100190170003    | 盘点单号 |
-| storesNumber   | 字符串    | 是    | 1192    | 门店编号 |
+| inventoryNo   | 字符串     | 是    | PD100190170003    | 盘点单号 |
+| unitNo   | 字符串    | 是    | 1192    | 门店编号 |
 | goodsCode   | 字符串    | 是    | AW020785    | 商品编码 |
 | drugName   | 字符串    | 是    | 复方黄松洗液    | 药品名称 |
 | batchNumber   | 字符串    | 是    | AC321321    | 批号 |
@@ -39,11 +39,11 @@
  ``` 
 [
 	{
-		"inventoryNumber":"PD100190170003",//盘点单号
+		"inventoryNo":"PD100190170003",//盘点单号
 		"inventoryChecker": "李浩",//盘点人(姓名)
 		"confirmChecker": "李浩",//监盘人 (姓名)
 		"auditChecker": "李浩",//审核人(姓名)
-		"storesNumber“:"1192",
+		"unitNo“:"1192",
 		"accountQuatity":"2",//账面库存数
 		"actualInventoryQuatity":"12",//实际盘点数
 		"goodsList":{
