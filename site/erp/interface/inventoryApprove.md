@@ -21,8 +21,8 @@
 | batchNumber   | 字符串    | 是    | AC321321    | 批号 |
 | specification   | 字符串    | 否    | 200毫升    | 规格 |
 | manufacturer   | 字符串    | 否    | 国药    | 生产商家 |
-| accountQuatity   | 字符串    | 是    | 2   | 账面库存数 |
-| actualInventoryQuatity   | 字符串    | 是    | 12    | 实际盘点数 |
+| accountQuatity   | 数值    | 是    | 2   | 账面库存数 |
+| actualInventoryQuatity   | 数值    | 是    | 12    | 实际盘点数 |
 | quality   | 字符串    | 是    | 好    | 质量 |
 | inventoryChecker   | 字符串    | 是    | 李浩    | 盘点人(姓名) |
 | confirmChecker   | 字符串    | 是    | 李浩    | 监盘人(姓名) |
