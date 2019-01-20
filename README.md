@@ -19,7 +19,7 @@
   + [盘点任务作废通知](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/inventoryTaskCancelled.md)
   + [盘点任务数据读取](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/inventoryGoodsInfo.md)
   + [盘点审批回传商品](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/inventoryApprove.md)
-  + [实时查询门店品类库存](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/storage.md)
+  + [查询库存确定盈亏](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/storage.md)
 ## 第三方对接——数据库方案
 * [订单同步](#)
   + [订单推送](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/database/orders_sync.md)
