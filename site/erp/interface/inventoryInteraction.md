@@ -1,6 +1,6 @@
 ## 盘点系统接口交互
 #### 交互图
-![](https://jkosshash.oss-cn-shanghai.aliyuncs.com/inventoryInteracton.jpg)
+![](https://jkosshash.oss-cn-shanghai.aliyuncs.com/inventoryInteractive2.jpg)
 #### 交互说明
 * 1.线上系统创建盘点计划，创建就绪通知给ERP
 * 2.ERP收到线上系统盘点计划之后，在ERP中创建盘点任务。
