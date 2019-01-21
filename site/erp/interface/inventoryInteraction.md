@@ -1,6 +1,6 @@
 ## 盘点系统接口交互
 ### 交互图
-<img src="https://jkosshash.oss-cn-shanghai.aliyuncs.com/inventoryInteractive.png" width = 70% height = 70% />
+![](https://jkosshash.oss-cn-shanghai.aliyuncs.com/inventoryInteractive.png)
 <br/>
 ### 交互说明
 * 1.线上系统创建盘点计划，创建就绪即从ERP读取库存商品数据。
