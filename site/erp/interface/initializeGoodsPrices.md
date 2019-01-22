@@ -36,12 +36,19 @@
     "msg" : "成功",
     "siteId":"100100",
     "storeNumber":"002",
-    "goodsPrices":{
+    "goodsPrices":[{
        "goodsCode":"20086005",//商品编码
        "storeGoodsPrice":1550,//商品门店价格
        "storeMemberPrice":1550,//商品门店会员价格
        "type":40,
+    },
+    {
+       "goodsCode":"20086006",//商品编码
+       "storeGoodsPrice":1551,//商品门店价格
+       "storeMemberPrice":1552,//商品门店会员价格
+       "type":40,
     }
+    ]
 }
 ```
 #### 1.7 请求失败
