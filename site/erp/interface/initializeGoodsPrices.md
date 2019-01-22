@@ -32,7 +32,7 @@
  ``` 
 {
     "code" : 10000,
-    "msg" : "成功"
+    "msg" : "成功",
     "storeNumber":"002",
     "goodsPrices":{
        "goodsCode":"20086005",//商品编码
