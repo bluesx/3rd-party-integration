@@ -12,7 +12,7 @@
   + [实时单个商品信息推送](#)
   + [实时批量商品信息推送](#)
 * [商品价格](#)
-  + [初始化商品价格](#)
+  + [初始化商品价格](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/initializeGoodsPrices.md)
   + [定时同步商品价格](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/multiPricePull.md)
   + [实时单个商品价格推送](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/multiPricePushSingle.md)
   + [实时批量商品价格推送](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/multiPricePushBatch.md)
