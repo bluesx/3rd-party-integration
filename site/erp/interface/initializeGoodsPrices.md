@@ -36,8 +36,8 @@
     "storeNumber":"002",
     "goodsPrices":{
        "goodsCode":"20086005",//商品编码
-       "storeGoodsPrice":"1550",//商品门店价格
-       "storeMemberPrice":"1550",//商品门店会员价格
+       "storeGoodsPrice":1550,//商品门店价格
+       "storeMemberPrice":1550,//商品门店会员价格
        "type":40,
     }
 }
