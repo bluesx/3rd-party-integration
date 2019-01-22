@@ -29,7 +29,7 @@
 | batchNumber   | 字符串    | 是    | AC321321    | 批号 |
 | specification   | 字符串    | 否    | 200毫升    | 规格 |
 | manufacturer   | 字符串    | 否    | 国药    | 生产商家 |
-| accountQuatity   | 浮点    | 是    | 2.00   | (当前)账面库存数，保留两位小数 |
+| accountQuatity   | 浮点    | 是    | 2.00   | 账面库存数，保留两位小数 |
 | expiryDate   | 日期    | 否    | 2019-09-09   | 有效期 yyy-MM-dd |
 --------------------- 
 --------------------- 
