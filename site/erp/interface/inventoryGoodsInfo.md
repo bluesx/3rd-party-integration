@@ -25,14 +25,10 @@
 | goodsCode   | 字符串    | 是    | AW020785    | 商品编码 |
 | drugName   | 字符串    | 是    | 复方黄松洗液    | 药品名称 |
 | batchNumber   | 字符串    | 是    | AC321321    | 批号 |
+| batchId   | 字符串    | 是    | AC321321    | 批次 |
 | specification   | 字符串    | 否    | 200毫升    | 规格 |
 | manufacturer   | 字符串    | 否    | 国药    | 生产商家 |
 | accountQuatity   | 数值    | 是    | 2   | 账面库存数 |
-| actualInventoryQuatity   | 数值    | 是    | 12    | 实际盘点数 |
-| quality   | 字符串    | 是    | 好    | 质量 |
-| inventoryChecker   | 字符串    | 是    | 李浩    | 盘点人(姓名) |
-| confirmChecker   | 字符串    | 是    | 李浩    | 监盘人(姓名) |
-| auditChecker   | 字符串    | 是    | 李浩   | 审核人(姓名) |
 --------------------- 
 --------------------- 
 #### 1.6 返回成功(匹配到库存信息)
