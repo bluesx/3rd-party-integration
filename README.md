@@ -18,7 +18,7 @@
 * [盘点信息](#)
   + [盘点接口交互](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/inventoryInteraction.md)
   + [盘点数据读取](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/inventoryGoodsInfo.md)
-  + [获取实时库存](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/inventoryTaskReady.md)
+  + [获取实时库存](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/inventoryStorage.md)
   + [盘点审批回传](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/inventoryApprove.md)
 ## 第三方对接——数据库方案
 * [订单同步](#)
