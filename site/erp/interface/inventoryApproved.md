@@ -9,7 +9,7 @@
 > 盘点单审批通过
 #### 1.3 url
 * ERP：
-> /inventory/approve
+> /inventory/approved
 #### 1.4 数据方向
 > 系统方至商户方
 #### 1.5 请求参数
