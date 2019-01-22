@@ -37,26 +37,32 @@
 --------------------- 
 #### 1.6 请求示例
  ``` 
-[
-	{
-		"inventoryNo":"PD100190170003",//盘点单号
-		"inventoryChecker": "李浩",//盘点人(姓名)
-		"confirmChecker": "李浩",//监盘人 (姓名)
-		"auditChecker": "李浩",//审核人(姓名)
-		"unitNo“:"1192",
-		"accountQuatity":"2",//账面库存数
-		"actualInventoryQuatity":"12",//实际盘点数
-		"goodsList":{
-			"goodsCode": "AW020785",//商品编码
-			"drugName": "复方黄松洗液",//药品名称（非必传字段）
-			"batchNumber": "AC321321",//批号
-			"specification": "200毫升",//规格（非必传字段）
-			"manufacturer": "国药",//生产商家（非必传字段）
-			"quality":"好",//质量
-			}
-}，
-……
-]
+{
+	"inventoryNo":"PD100190170003",//盘点单号
+	"inventoryChecker": "李浩",//盘点人(姓名)
+	"confirmChecker": "李浩",//监盘人 (姓名)
+	"auditChecker": "李浩",//审核人(姓名)
+	"unitNo“:"1192",
+	"accountQuatity":"2",//账面库存数
+	"actualInventoryQuatity":"12",//实际盘点数
+	"goodsList":[
+		{
+		"goodsCode": "AW020785",//商品编码
+		"drugName": "复方黄松洗液",//药品名称（非必传字段）
+		"batchNumber": "AC321321",//批号
+		"specification": "200毫升",//规格（非必传字段）
+		"manufacturer": "国药",//生产商家（非必传字段）
+		"quality":"好",//质量
+		},
+		"goodsCode": "AW020786",//商品编码
+		"drugName": "复方黄松洗液",//药品名称（非必传字段）
+		"batchNumber": "AC321322",//批号
+		"specification": "200毫升",//规格（非必传字段）
+		"manufacturer": "国药",//生产商家（非必传字段）
+		"quality":"好",//质量
+		}
+	 ]
+}
 ```
 #### 1.7 返回成功(未匹配到库存信息)
 ```
