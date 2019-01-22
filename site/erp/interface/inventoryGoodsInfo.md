@@ -25,10 +25,10 @@
 | goodsCode   | 字符串    | 是    | AW020785    | 商品编码 |
 | drugName   | 字符串    | 是    | 复方黄松洗液    | 药品名称 |
 | batchNumber   | 字符串    | 是    | AC321321    | 批号 |
-| batchId   | 字符串    | 是    | AC321321    | 批次 |
 | specification   | 字符串    | 否    | 200毫升    | 规格 |
 | manufacturer   | 字符串    | 否    | 国药    | 生产商家 |
-| accountQuatity   | 数值    | 是    | 2   | 账面库存数 |
+| accountQuatity   | 浮点    | 是    | 2.00   | 账面库存数，保留两位小数 |
+| expiryDate   | 日期    | 否    | 2019-09-09   | 有效期 yyy-MM-dd |
 --------------------- 
 --------------------- 
 #### 1.6 返回成功(匹配到库存信息)
@@ -36,6 +36,26 @@
 {
     "code" : 10000,
     "msg" : "成功"
+    "unitNo" : "1192",
+    "goodsList":[{
+      "goodsCode":"AW020785",
+      "drugName":"复方黄松洗液",
+      "batchNumber":"AC321321",
+      "specification":"200毫升",
+      "manufacturer":"国药",
+      "accountQuatity":2,
+      "expiryDate":"2019-09-09"
+    },
+    {
+      "goodsCode":"AW020786",
+      "drugName":"孟鲁司特钠片",
+      "batchNumber":"AC321322",
+      "specification":"10毫克×5片",
+      "manufacturer":"国药",
+      "accountQuatity":12,
+      "expiryDate":"2020-09-09"
+    }
+    ]
 }
 ```
 #### 1.7 请求失败
