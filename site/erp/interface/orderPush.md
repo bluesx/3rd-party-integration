@@ -38,8 +38,8 @@ ERP：
 | memberMobile   | 字符串     | 是    |  13833334444  | 订单所属会员手机 |
 | memberName   | 字符串     | 是    |  老王  | 订单所属会员姓名 |
 | status   | 整型     | 是    | 1   | 订单状态::1：已付款（未退款），0：已退款 |
-| orderCreateTime   | 时间     | 是    | 2019-01-23 12:43:43   | 订单创建时间，格式：yyyy-MM-dd HH:mm:ss|
-| orderPaymentTime   | 时间     | 是    | 2019-01-23 12:43:43   | 订单支付时间，格式：yyyy-MM-dd HH:mm:ss|
+| orderCreateTime   | 时间     | 是    | 2019-01-23 12:43:43   | 订单创建时间，<br/>格式：yyyy-MM-dd HH:mm:ss|
+| orderPaymentTime   | 时间     | 是    | 2019-01-23 12:43:43   | 订单支付时间，<br/>格式：yyyy-MM-dd HH:mm:ss|
 --------------------- 
 #### 1.6 返回参数
 | 参数名称 | 参数类型 | 是否必须 | 示例值 | 参数描述  |
