@@ -90,3 +90,4 @@ ERP：
 #### 1.9 特殊说明
 * storeUserMobile属性目前仅提供给100309
 * tradesSource属性目前仅提供给100271
+* siteId字段会推送出来，ERP方看需要获取
