@@ -63,6 +63,12 @@ ERP：
           "goodsSpecification": "10mg*100s",//商品规格
           "goodsCode": "32301029",//商品编码
           "goodsNumber": 1//购买数量
+        },
+        {
+          "goodsPrice": 102,//商品价格
+          "goodsSpecification": "10mg*100s",//商品规格
+          "goodsCode": "32301039",//商品编码
+          "goodsNumber": 1//购买数量
         }
       ],
       "discount": 0,//优惠金额
@@ -81,7 +87,7 @@ ERP：
       "status": 1//订单状态：1：已付款（未退款），0：已退款
       "orderCreateTime":"2019-01-23 12:43:43",//订单创建时间
       "orderPaymentTime":"2019-01-23 12:43:43",//订单支付时间
-    },
+    }
 }
 ```
 #### 1.8 返回示例
