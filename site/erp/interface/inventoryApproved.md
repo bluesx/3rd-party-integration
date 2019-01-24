@@ -43,8 +43,6 @@
 	"confirmChecker": "李浩",//监盘人 (姓名)
 	"auditChecker": "李浩",//审核人(姓名)
 	"unitNo“:"1192",
-	"accountQuatity":"2",//账面库存数
-	"actualInventoryQuatity":"12",//实际盘点数
 	"goodsList":[
 		{
 		"goodsCode": "AW020785",//商品编码
@@ -53,6 +51,8 @@
 		"specification": "200毫升",//规格（非必传字段）
 		"manufacturer": "国药",//生产商家（非必传字段）
 		"quality":"好",//质量
+		"accountQuatity":"2",//账面库存数
+		"actualInventoryQuatity":"12",//实际盘点数
 		},
 		"goodsCode": "AW020786",//商品编码
 		"drugName": "复方黄松洗液",//药品名称（非必传字段）
@@ -60,6 +60,8 @@
 		"specification": "200毫升",//规格（非必传字段）
 		"manufacturer": "国药",//生产商家（非必传字段）
 		"quality":"好",//质量
+		"accountQuatity":"2",//账面库存数
+		"actualInventoryQuatity":"12",//实际盘点数
 		}
 	 ]
 }
