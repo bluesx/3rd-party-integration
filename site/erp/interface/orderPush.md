@@ -53,10 +53,26 @@ ERP：
   "code": 0,//0:成功，-1：失败
   "tradesList":
     {
-      "realPay": 180,//实付款
+      "realPay": 180,//实付款，即实收金额
       "receiverName": "老王",//收货人姓名
       "receiverMobile": "13800001111",//收货人手机号码
       "postFee": 0,//运费
+      "discount": 0,//优惠金额
+      "paystyle": "wx",//支付方式:ali (支付宝) ，wx (微信)， bil(快钱)， unionPay(银联)， health_insurance（医保），cash（现金）
+      "poststyle": 170,//购买方式::150：送货上门；160：门店自提；170：门店直购
+      "tradesId": 1002241501752197580,//订单编号
+      "siteId": "100150",//商户ID
+      "storeNumber": "123",//门店编码
+      "storeUserMobile":"13811112222",//下单店员手机
+      "totalPay": 180,//商品金额+运费，即应收金额
+      "totalFee": 180,//商品金额
+      "receicerAddress": "",//收货地址
+      "tradesSource":"160",//订单来源
+      "memberMobile": "13800001111",//订单所属会员手机号码
+      "memberName":"老张",//订单所属会员名字
+      "status": 1//订单状态：1：已付款（未退款），0：已退款
+      "orderCreateTime":"2019-01-23 12:43:43",//订单创建时间
+      "orderPaymentTime":"2019-01-23 12:43:43",//订单支付时间
       "orderList": [//商品列表
         {
           "goodsPrice": 100,//商品价格
@@ -70,23 +86,8 @@ ERP：
           "goodsCode": "32301039",//商品编码
           "goodsNumber": 1//购买数量
         }
-      ],
-      "discount": 0,//优惠金额
-      "paystyle": "wx",//支付方式:ali (支付宝) ，wx (微信)， bil(快钱)， unionPay(银联)， health_insurance（医保），cash（现金）
-      "poststyle": 170,//购买方式::150：送货上门；160：门店自提；170：门店直购
-      "tradesId": 1002241501752197580,//订单编号
-      "siteId": "100150",//商户ID
-      "storeNumber": "123",//门店编码
-      "storeUserMobile":"13811112222",//下单店员手机
-      "totalPay": 180,//商品金额+运费
-      "totalFee": 180,//商品金额
-      "receicerAddress": "",//收货地址
-      "tradesSource":"160",//订单来源
-      "memberMobile": "13800001111",//订单所属会员手机号码
-      "memberName":"老张",//订单所属会员名字
-      "status": 1//订单状态：1：已付款（未退款），0：已退款
-      "orderCreateTime":"2019-01-23 12:43:43",//订单创建时间
-      "orderPaymentTime":"2019-01-23 12:43:43",//订单支付时间
+      ]
+      
     }
 }
 ```
