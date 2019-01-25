@@ -16,7 +16,6 @@
 | :---         |     :---      |     :--- | :--- | :--- |
 | siteId   | 字符串     | 否    | 90301105    | 商户ID，根据实际需要 |
 | storeNumber   | 字符串     | 是    | 001,002    | 门店编号，支持多值，多值之间逗号(,)分割 |
-| goodsCode   | 字符串     | 是    | AW020785    | 商品编码 |
 --------------------- 
 #### 1.5 返回参数
 | 参数名称 | 参数类型 | 是否必须 | 示例值 | 参数描述  |
@@ -39,7 +38,7 @@
     "code" : 10000,
     "msg" : "成功"
     "data" : {
-      "goodsStorage" : {
+      "goodsStorage" : [{
         "unitNo" : "1192",
         "goodsCode":"AW020785",
         "drugName":"复方黄松洗液",
@@ -48,7 +47,18 @@
         "manufacturer":"国药",
         "accountQuatity":2,
         "expiryDate":"2019-09-09"
+      },
+      {
+        "unitNo" : "1192",
+        "goodsCode":"AW020786",
+        "drugName":"香丹清（珂妍胶囊）",
+        "batchNumber":"AC321321",
+        "specification":"0.4g*20粒",
+        "manufacturer":"西安杨健药业有限公司",
+        "accountQuatity":2,
+        "expiryDate":"2019-09-09"
       }
+      ]
     }
     
 }
