@@ -38,7 +38,7 @@
     "code" : 10000,
     "msg" : "成功"
     "data" : {
-      "goodsStorage" : [{
+      "goodsStorage" : {
         "unitNo" : "1192",
         "goodsCode":"AW020785",
         "drugName":"复方黄松洗液",
@@ -47,18 +47,7 @@
         "manufacturer":"国药",
         "accountQuatity":2,
         "expiryDate":"2019-09-09"
-      },
-      {
-        "unitNo" : "1192",
-        "goodsCode":"AW020786",
-        "drugName":"香丹清（珂妍胶囊）",
-        "batchNumber":"AC321321",
-        "specification":"0.4g*20粒",
-        "manufacturer":"西安杨健药业有限公司",
-        "accountQuatity":2,
-        "expiryDate":"2019-09-09"
       }
-      ]
     }
     
 }
