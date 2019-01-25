@@ -40,29 +40,27 @@
     "code" : 10000,
     "msg" : "成功"
     "data" : {
-      "goodsList" : [
-      {
-        "unitNo" : "1192",
-        "goodsCode":"AW020785",
-        "drugName":"复方黄松洗液",
-        "batchNumber":"AC321321",
-        "specification":"200毫升",
-        "manufacturer":"国药",
-        "accountQuatity":2,
-        "expiryDate":"2019-09-09"
-      },
-      {
-        "unitNo" : "1192",
-        "goodsCode":"AW020785",
-        "drugName":"复方黄松洗液",
-        "batchNumber":"AC321322",
-        "specification":"200毫升",
-        "manufacturer":"国药",
-        "accountQuatity":4,
-        "expiryDate":"2019-09-09"
-      }
+      "storeNumber" : "1192",
+      "goodsList" : [{
+      "goodsCode" : "AW020785",
+      "drugName" : "复方黄松洗液",
+      "batchNumber" : "AC321321",
+      "specification" : "200毫升",
+      "manufacturer" : "国药",
+      "accountQuatity" : 2,
+      "expiryDate" : "2019-09-09"
+    },
+    {
+      "goodsCode" : "AW020786",
+      "drugName" : "孟鲁司特钠片",
+      "batchNumber" : "AC321322",
+      "specification" : "10毫克×5片",
+      "manufacturer" : "国药",
+      "accountQuatity" : 12,
+      "expiryDate" : "2020-09-09"
     }
-    
+    ]
+    }
 }
 ```
 #### 1.7 请求失败
