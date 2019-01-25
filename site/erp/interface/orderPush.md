@@ -74,7 +74,7 @@ ERP：
       "status": 1//订单状态：1：已付款（未退款），0：已退款
       "orderCreateTime":"2019-01-23 12:43:43",//订单创建时间
       "orderPaymentTime":"2019-01-23 12:43:43",//订单支付时间
-      "orderList": [//商品列表
+      "goodsList": [//商品列表
         {
           "goodsPrice": 100,//商品价格
           "goodsSpecification": "10mg*100s",//商品规格
