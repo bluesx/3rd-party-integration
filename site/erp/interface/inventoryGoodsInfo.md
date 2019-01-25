@@ -37,8 +37,8 @@
     "code" : 10000,
     "msg" : "成功"
     "data" : {
-      "goodsList" : [{
       "storeNumber" : "1192",
+      "goodsList" : [{
       "goodsCode" : "AW020785",
       "drugName" : "复方黄松洗液",
       "batchNumber" : "AC321321",
@@ -48,7 +48,6 @@
       "expiryDate" : "2019-09-09"
     },
     {
-      "storeNumber" : "1192",
       "goodsCode" : "AW020786",
       "drugName" : "孟鲁司特钠片",
       "batchNumber" : "AC321322",
