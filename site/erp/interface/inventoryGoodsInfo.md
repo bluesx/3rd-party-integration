@@ -38,14 +38,19 @@
 {
     "code" : 10000,
     "msg" : "成功"
-    "unitNo" : "1192",
-    "goodsCode":"AW020785",
-    "drugName":"复方黄松洗液",
-    "batchNumber":"AC321321",
-    "specification":"200毫升",
-    "manufacturer":"国药",
-    "accountQuatity":2,
-    "expiryDate":"2019-09-09"
+    "data" : {
+      "goodsStorage" : {
+        "unitNo" : "1192",
+        "goodsCode":"AW020785",
+        "drugName":"复方黄松洗液",
+        "batchNumber":"AC321321",
+        "specification":"200毫升",
+        "manufacturer":"国药",
+        "accountQuatity":2,
+        "expiryDate":"2019-09-09"
+      }
+    }
+    
 }
 ```
 #### 1.7 请求失败
