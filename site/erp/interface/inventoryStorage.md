@@ -4,6 +4,7 @@
 * 盘点过程中实时调用，准确匹配当前库存
 * 由于同一店员同一时刻只能盘点单个商品，所以本接口始终只支持查询单个商品实时库存
 * 门店参数有可能是多值，因为同一盘点单可能跨多门店
+* 如果存在多个批号，则返回该商品库存存在的所有批号，故以数组形式返回
 #### 1.2 请求方式
 > POST
 #### 1.3 url
@@ -39,7 +40,8 @@
     "code" : 10000,
     "msg" : "成功"
     "data" : {
-      "goodsStorage" : {
+      "goodsList" : [
+      {
         "unitNo" : "1192",
         "goodsCode":"AW020785",
         "drugName":"复方黄松洗液",
@@ -47,6 +49,16 @@
         "specification":"200毫升",
         "manufacturer":"国药",
         "accountQuatity":2,
+        "expiryDate":"2019-09-09"
+      },
+      {
+        "unitNo" : "1192",
+        "goodsCode":"AW020785",
+        "drugName":"复方黄松洗液",
+        "batchNumber":"AC321322",
+        "specification":"200毫升",
+        "manufacturer":"国药",
+        "accountQuatity":4,
         "expiryDate":"2019-09-09"
       }
     }
