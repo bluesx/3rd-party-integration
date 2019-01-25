@@ -60,7 +60,7 @@
 	  "drugName": "复方黄松洗液",//药品名称（非必传字段）
 	  "batchNumber": "AC321322",//批号
 	  "specification": "200毫升",//规格（非必传字段）
-  	  "manufacturer": "国药",//生产商家（非必传字段）
+	  "manufacturer": "国药",//生产商家（非必传字段）
 	  "quality":"好",//质量
 	  "accountQuatity":"2",//账面库存数
 	  "actualInventoryQuatity":"12",//实际盘点数
