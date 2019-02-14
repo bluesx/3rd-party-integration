@@ -48,7 +48,7 @@
 	  "actualInventoryQuatity":"12",//实际盘点数
 	 }
 	]
-    ]
+     ]
    
  }
 ```
