@@ -36,19 +36,19 @@
  "msg" : "回传成功",
  "data": {
    "totalPage": 12,//总页数
-   "inventoryNo":"PD100190170003",//盘点单号
-    "goodsList":[
+   "inventoryNo": "PD100190170003",//盘点单号
+   "goodsList": [
 		{
 		  "unitNo": "1192",
 		  "goodsCode": "AW020785",//商品编码
-		  "accountQuatity":"2",//账面库存数
-		  "actualInventoryQuatity":"12",//实际盘点数
+		  "accountQuatity": "2",//账面库存数
+		  "actualInventoryQuatity": "12",//实际盘点数
 		 },
 		 {
 		  "unitNo": "1192",
 		  "goodsCode": "AW020786",//商品编码
-		  "accountQuatity":"2",//账面库存数
-		  "actualInventoryQuatity":"12",//实际盘点数
+		  "accountQuatity": "2",//账面库存数
+		  "actualInventoryQuatity": "12",//实际盘点数
 		 }
 		]
      }
