@@ -27,12 +27,14 @@
      {
 	"storeNumber":"A316",//门店编码
 	"goodsCode":"K1232313",//商品编码
-	"shopPrice":"39.79"//门店价格；元为单位
+	"storeGoodsPrice":"39.79"//门店价格；元为单位
+	"storeMemberPrice":"39.79"//会员价格；元为单位
      },
      {
 	"storeNumber":"A316",
 	"goodsCode":"AC15220",
-	"shopPrice":"39.79"
+	"storeGoodsPrice":"39.79"//门店价格；元为单位
+	"storeMemberPrice":"39.79"//会员价格；元为单位
      }
   ]
 }
