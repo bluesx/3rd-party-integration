@@ -32,7 +32,7 @@
  ``` 
  "code" : 10000,
  "msg" : "回传成功",
- "data"{
+ "data": {
    "inventoryNo":"PD100190170003",//盘点单号
     stores: [
       "unitNo": "1192",
