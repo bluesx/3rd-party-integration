@@ -36,34 +36,34 @@
    "inventoryNo":"PD100190170003",//盘点单号
     "stores": [
     {
-      "unitNo": "1192",
-      "goodsList":[
-	{
-	  "goodsCode": "AW020785",//商品编码
-	  "accountQuatity":"2",//账面库存数
-	  "actualInventoryQuatity":"12",//实际盘点数
-	 },
-	 {
-	  "goodsCode": "AW020786",//商品编码
-	  "accountQuatity":"2",//账面库存数
-	  "actualInventoryQuatity":"12",//实际盘点数
-	 }
-	]
+	      "unitNo": "1192",
+	      "goodsList":[
+		{
+		  "goodsCode": "AW020785",//商品编码
+		  "accountQuatity":"2",//账面库存数
+		  "actualInventoryQuatity":"12",//实际盘点数
+		 },
+		 {
+		  "goodsCode": "AW020786",//商品编码
+		  "accountQuatity":"2",//账面库存数
+		  "actualInventoryQuatity":"12",//实际盘点数
+		 }
+		]
      },
      {
-      "unitNo": "1193",
-      "goodsList":[
-	{
-	  "goodsCode": "AW020785",//商品编码
-	  "accountQuatity":"2",//账面库存数
-	  "actualInventoryQuatity":"12",//实际盘点数
-	 },
-	 {
-	  "goodsCode": "AW020786",//商品编码
-	  "accountQuatity":"2",//账面库存数
-	  "actualInventoryQuatity":"12",//实际盘点数
-	 }
-	]
+	      "unitNo": "1193",
+	      "goodsList":[
+		{
+		  "goodsCode": "AW020785",//商品编码
+		  "accountQuatity":"2",//账面库存数
+		  "actualInventoryQuatity":"12",//实际盘点数
+		 },
+		 {
+		  "goodsCode": "AW020786",//商品编码
+		  "accountQuatity":"2",//账面库存数
+		  "actualInventoryQuatity":"12",//实际盘点数
+		 }
+		]
      }
    ]
   
