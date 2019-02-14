@@ -34,18 +34,22 @@
  "msg" : "回传成功",
  "data"{
    "inventoryNo":"PD100190170003",//盘点单号
-   "unitNo“:"1192",
-   "goodsList":[
+    stores: [
+      "unitNo": "1192",
+      "goodsList":[
 	{
 	  "goodsCode": "AW020785",//商品编码
 	  "accountQuatity":"2",//账面库存数
 	  "actualInventoryQuatity":"12",//实际盘点数
 	 },
+	 {
 	  "goodsCode": "AW020786",//商品编码
 	  "accountQuatity":"2",//账面库存数
 	  "actualInventoryQuatity":"12",//实际盘点数
 	 }
-      ]
+	]
+    ]
+   
  }
 ```
 #### 1.8 返回成功(未匹配到库存信息)
