@@ -34,7 +34,7 @@
  "msg" : "回传成功",
  "data": {
    "inventoryNo":"PD100190170003",//盘点单号
-    stores: [
+    "stores": [
       "unitNo": "1192",
       "goodsList":[
 	{
