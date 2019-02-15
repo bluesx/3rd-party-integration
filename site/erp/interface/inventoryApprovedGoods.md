@@ -28,6 +28,7 @@
 | goodsCode   | 字符串    | 是    | AW020785    | 商品编码 |
 | accountQuatity   | 数值    | 是    | 2   | 账面库存数 |
 | actualInventoryQuatity   | 数值    | 是    | 12    | 实际盘点数 |
+| batchNumber   | 字符串    | 是    | AC321321    | 批号 |
 | totalPage   | 数值    | 是    | 12    | 分页总页数 |
 --------------------- 
 #### 1.7 请求示例
@@ -43,12 +44,14 @@
 		  "goodsCode": "AW020785",//商品编码
 		  "accountQuatity": "2",//账面库存数
 		  "actualInventoryQuatity": "12",//实际盘点数
+		  "batchNumber": "AC321321"//批号
 		 },
 		 {
 		  "unitNo": "1192",
 		  "goodsCode": "AW020786",//商品编码
 		  "accountQuatity": "2",//账面库存数
 		  "actualInventoryQuatity": "12",//实际盘点数
+		   "batchNumber": "AC321321"//批号
 		 }
 		]
      }
