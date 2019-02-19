@@ -54,7 +54,6 @@ ERP：
   "data":
     {
       "tradesList":
-      [
       {
         "realPay": 180,//实付款，即实收金额
         "receiverName": "老王",//收货人姓名
@@ -91,7 +90,6 @@ ERP：
           }
         ]
       }
-     ]
     }
 }
 ```
