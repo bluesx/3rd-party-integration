@@ -53,9 +53,7 @@ ERP：
   "code": 0,//0:成功，-1：失败
   "data":
     {
-      "tradesList":
-      [
-      {
+      "tradesList":{
         "realPay": 180,//实付款，即实收金额
         "receiverName": "老王",//收货人姓名
         "receiverMobile": "13800001111",//收货人手机号码
@@ -91,7 +89,6 @@ ERP：
           }
         ]
       }
-     ]
     }
 }
 ```
