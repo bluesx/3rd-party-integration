@@ -53,7 +53,7 @@
      "level":"0",//default 0,--0会员卡 1贵宾卡
      "state":"0",//default 0,    -- 0: 新发卡 1: 正常卡 9: 已删除
      "address":"下城路766号",
-     "card_no":"e0582800",
+     "cardNo":"e0582800",
      "storeNumber": "1001"
    }],
   "msg":"成功"
@@ -72,7 +72,7 @@
      "level":"0",//default 0,--0会员卡 1贵宾卡
      "state":"0",//default 0,    -- 0: 新发卡 1: 正常卡 9: 已删除
      "address":"下城路766号",
-     "card_no":"e0582800",
+     "cardNo":"e0582800",
      "storeNumber": "1001"
   }],
   "msg":"成功!"
