@@ -28,7 +28,7 @@ ERP：
 | goodsCode   | 字符串     | 是    | 20058962   | 商品编码(pre:gcode) |
 | goodsNumber   | 整型     | 是    | 1   | 购买数量(pre:gnum) |
 | discount   | 整型     | 否    | 1   | 优惠金额，单位:分(RMB) |
-| paystyle   | 字符串     | 是    | wx   | 支付方式::</br>ali (支付宝) ，</br>wx (微信)，</br> bil(快钱)，</br> unionPay(银联)，</br> health_insurance（医保），</br>cash（现金） |
+| paystyle   | 字符串     | 是    | wx   | 支付方式::</br>ali (支付宝) ，</br>wx (微信)，</br> bil(快钱)，</br> unionPay(银联)，</br> health_insurance（医保），</br>cash（现金）,</br>prePaid(储值卡),</br>coupon(购物券) |
 | poststyle   | 字符串     | 否    | 170   | 购买方式::</br>150：送货上门；</br>160：门店自提；</br>170：门店直购 |
 | storeNumber   | 字符串     | 否    | 120   | 门店编码(pre:uid) |
 | storeUserMobile   | 字符串     | 否    | 13833334444   | 下单店员手机 |
@@ -58,7 +58,16 @@ ERP：
         "receiverMobile": "13800001111",//收货人手机号码
         "postFee": 0,//运费
         "discount": 0,//优惠金额
-        "paystyle": "wx",//支付方式:ali (支付宝) ，wx (微信)， bil(快钱)， unionPay(银联)， health_insurance（医保），cash（现金）
+        "payList": [
+        {
+           "paystyle": "wx",//支付方式:ali (支付宝) ，wx (微信)， bil(快钱)， unionPay(银联)， health_insurance（医保），cash（现金），prePaid(储值卡),coupon(购物券)
+           "paymentAmount": 100
+        },
+        {
+           "paystyle": "wx",//支付方式:ali (支付宝) ，wx (微信)， bil(快钱)， unionPay(银联)， health_insurance（医保），cash（现金），prePaid(储值卡),coupon(购物券)
+           "paymentAmount": 80
+        },
+        ]
         "poststyle": 170,//购买方式::150：送货上门；160：门店自提；170：门店直购
         "tradesId": 1002241501752197580,//订单编号
         "siteId": "100150",//商户ID
