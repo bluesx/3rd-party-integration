@@ -22,7 +22,7 @@
   + [盘点数据读取](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/inventoryGoodsInfo.md)
   + [获取实时库存](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/inventoryStorage.md)
   + [盘点审批通知](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/inventoryApprovedNotify.md)
-  + ~~[盘点审批回传](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/inventoryApproved.md)
+  + ~~[盘点审批回传]~~(https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/inventoryApproved.md)
   + [盘点审批查询](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/inventoryApprovedGoods.md)
 ## 第三方对接——数据库方案
 * [订单同步](#)
