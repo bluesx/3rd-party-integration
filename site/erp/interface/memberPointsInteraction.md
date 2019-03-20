@@ -1,6 +1,6 @@
 ## 会员系统积分接口交互
 ### 交互图
-![](https://github.com/bluesx/3rd-party-integration/blob/master/site/images/member-points.png)
+&nbsp; &nbsp; ![](https://github.com/bluesx/3rd-party-integration/blob/master/site/images/member-points.png)
 <br/>
 ### 交互说明
 * 1.线上系统创建盘点计划，创建就绪即从ERP读取库存商品数据。
