@@ -6,6 +6,7 @@
 * [库存信息](#)
   + [实时库存](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/storage.md)
 * [会员信息](#)
+  + [会员积分交互](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/inventoryInteraction.md)
   + [会员信息推送](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/userInfo.md)
   + [会员积分获取](#)
   + [会员积分消费查询](#)
