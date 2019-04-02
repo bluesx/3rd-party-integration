@@ -21,7 +21,7 @@ ERP：
 | realPay   | 整型     | 是    | 120   |实付款，单位:分(RMB)，即实收金额|
 | receiverName   | 字符串    | 是    | 老王  | 收货人姓名|
 | receiverMobile   | 字符串     | 是    | 13800001111   | 收货人手机 |
-| receicerAddress   | 字符串     | 是    | 北美市美帝路111号   | 收货人地址 |
+| receiverAddress   | 字符串     | 是    | 北美市美帝路111号   | 收货人地址 |
 | postFee   | 整型     | 是    | 150   | 运费，单位:分(RMB) |
 | goodsPrice   | 整型     | 是    | 1500   | 商品价格，单位:分(RMB)(pre:gprice) |
 | goodsSpecification   | 字符串     | 是    | 10mg*100s   | 商品规格(pre:gsc) |
