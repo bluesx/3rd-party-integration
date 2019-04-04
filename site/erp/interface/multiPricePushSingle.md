@@ -9,6 +9,7 @@
 #### 1.2 请求方式
 > POST
 #### 1.3 url
+* 线上系统：
 > /goods/multiPricePushSingle
 #### 1.4 数据方向
 > ERP-->线上系统
