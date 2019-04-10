@@ -8,6 +8,7 @@
 * [会员信息](#)
   + [会员积分交互](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/memberPointsInteraction.md)
   + [会员信息推送](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/userInfo.md)
+  + [会员信息更新](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/userUpdate.md)
   + [会员积分获取](#)
   + [会员积分消费查询](#)
 * [商品基础信息维护](#)
