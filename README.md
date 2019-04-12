@@ -11,7 +11,7 @@
   + [会员信息更新](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/userUpdate.md)
   + [会员积分获取](#)
   + [会员积分消费查询](#)
-* [商品基础信息维护](#)
+* [商品基础信息维护--待定](#)
   + [实时单个商品信息推送](#)
   + [实时批量商品信息推送](#)
 * [商品价格](#)
