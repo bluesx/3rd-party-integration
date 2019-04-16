@@ -2,7 +2,7 @@
 * [请求注册](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/accessToken.md)
 * [订单同步](#)
   + [订单推送](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/orderPush.md)
-  + [订单查询](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/orderList.md)
+  + ~~[订单查询](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/orderList.md)~~
 * [库存信息](#)
   + [实时库存](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/storage.md)
 * [会员信息](#)
