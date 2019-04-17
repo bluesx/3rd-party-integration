@@ -7,7 +7,7 @@
 > POST
 #### 1.3 url
 * 线上系统：
-> /site/startup
+> /goods/single
 #### 1.4 数据方向
 > ERP->线上系统
 #### 1.5 请求参数
