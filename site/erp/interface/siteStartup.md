@@ -25,7 +25,7 @@
 | merchantCompanyEmail | 字符串 | 否 | a@a.com | 公司邮箱地址 |
 | merchantShopQQ | 字符串 | 否 | 111000 | 公司QQ |
 | merchantCardId | 字符串 | 否 | 222000 | 商家会员卡 |
-| merchantShortMessageSign | 字符串 | 是 | 【51健康】 | 短信签名 |
+| merchantShortMessageSign | 字符串 | 是 | 51健康 | 短信签名 |
 | merchantExtTradeCertNumber | 字符串 | 否 | http://a.com/a.png | 互联网药品交易资格证<br/>(文件URL) |
 | merchantShopWxUrl | 字符串 | 否 | www.a.com | 微信域名 |
 | merchantShopWeixin | 字符串 | 否 | 健康医药 | 微信服务号 |
