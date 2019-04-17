@@ -48,9 +48,9 @@
 | merchantExtGspApprove | 字符串 | 是 | -- | 药品经营质量管理<br/>规范认证证书 |
 | merchantExtDrugCert | 字符串 | 是 | -- | 药品经营许可证 |
 | merchantExtMedicalCert | 字符串 | 否 | -- | 执业药师/医师证 |
-| merchantExtMedicalequiCert | 字符串 | 否 | http://a.com/img/a.png | 医疗器械经营许可证 |
-| merchantExtFdcirculationCert | 字符串 | 否 | http://a.com/img/a.png | 食品流通证 |
-| merchantExtInterDrugInformCert | 字符串 | 否 | http://a.com/img/a.png | 互联网药品信息服务证 |
+| merchantExtMedicalequiCert | 字符串 | 否 | http://a.com/a.png | 医疗器械经营许可证 |
+| merchantExtFdcirculationCert | 字符串 | 否 | http://a.com/a.png | 食品流通证 |
+| merchantExtInterDrugInformCert | 字符串 | 否 | http://a.com/a.png | 互联网药品信息服务证 |
 | merchantExtInterDrugTradCert | 字符串 | 否 | -- | 互联网药品交易服务证 |
 | merchantSellerNick | 字符串 | 是 | admin | 管理员账号 |
 | merchantSellerPwd | 字符串 | 是 | 123456 | 登录密码 |
