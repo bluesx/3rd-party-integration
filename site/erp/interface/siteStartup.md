@@ -27,7 +27,7 @@
 | merchantCardId | 字符串 | 否 | -- | 商家会员卡 |
 | merchantShortMessageSign | 字符串 | 是 | -- | 短信签名 |
 | merchantExtTradeCertNumber | 字符串 | 否 | -- | 互联网药品交易资格证 |
-| merchantShopwxUrl | 字符串 | 否 | -- | 微信域名 |
+| merchantShopWxUrl | 字符串 | 否 | -- | 微信域名 |
 | merchantShopWeixin | 字符串 | 否 | -- | 微信服务号 |
 | merchantExtWxAppid | 字符串 | 否 | -- | 微信appid |
 | merchantExtWxSecret | 字符串 | 否 | -- | 微信appsecret |
