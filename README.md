@@ -30,7 +30,7 @@
 * [站点信息](#)
   + [实时开站](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/siteStartup.md)
 * [自动生成商品记录](#)
-  + [批量生成商品](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/autoCreateProductInfo.md)
+  + [批量生成商品](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/autoCreateGoodsInfo.md)
 ## ~~第三方对接——数据库方案~~
 * [订单同步](#)
   + [订单推送](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/database/orders_sync.md)
