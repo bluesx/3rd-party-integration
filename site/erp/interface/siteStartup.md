@@ -44,14 +44,14 @@
 | merchantShopWatermark | 字符串 | 否 | -- | 图片防盗水印 |
 | merchantExtCompanyQualUrl | 字符串 | 是 | -- | 营业执照 |
 | merchantExtTaxCertificate | 字符串 | 是 | -- | 税务登记证 |
-| merchantExtOrganizationCodecert | 字符串 | 是 | -- | 组织机构代码证 |
-| merchantExtGspApprove | 字符串 | 是 | -- | 药品经营质量管理<br/>规范认证证书 |
-| merchantExtDrugCert | 字符串 | 是 | -- | 药品经营许可证 |
-| merchantExtMedicalCert | 字符串 | 否 | -- | 执业药师/医师证 |
-| merchantExtMedicalequiCert | 字符串 | 否 | http://a.com/a.png | 医疗器械经营许可证 |
-| merchantExtFdcirculationCert | 字符串 | 否 | http://a.com/a.png | 食品流通证 |
-| merchantExtInterDrugInformCert | 字符串 | 否 | http://a.com/a.png | 互联网药品信息服务证 |
-| merchantExtInterDrugTradCert | 字符串 | 否 | -- | 互联网药品交易服务证 |
+| merchantExtOrganizationCodecert | 字符串 | 是 | http://a.com/a.png | 组织机构代码证<br/>(图片URL) |
+| merchantExtGspApprove | 字符串 | 是 | http://a.com/a.png | 药品经营质量管理<br/>规范认证证书<br/>(图片URL) |
+| merchantExtDrugCert | 字符串 | 是 | http://a.com/a.png | 药品经营许可证 |
+| merchantExtMedicalCert | 字符串 | 否 | http://a.com/a.png | 执业药师/医师证<br/>(图片URL) |
+| merchantExtMedicalequiCert | 字符串 | 否 | http://a.com/a.png | 医疗器械经营许可证<br/>(图片URL) |
+| merchantExtFdcirculationCert | 字符串 | 否 | http://a.com/a.png | 食品流通证<br/>(图片URL) |
+| merchantExtInterDrugInformCert | 字符串 | 否 | http://a.com/a.png | 互联网药品信息服务证<br/>(图片URL) |
+| merchantExtInterDrugTradCert | 字符串 | 否 | http://a.com/a.png | 互联网药品交易服务证<br/>(图片URL) |
 | merchantSellerNick | 字符串 | 是 | admin | 管理员账号 |
 | merchantSellerPwd | 字符串 | 是 | 123456 | 登录密码 |
 | merchantIsFrozen | 整型 | 是 | 1 | 是否允许登录，<br/>1：不允许（默认） <br/>0：允许 |
