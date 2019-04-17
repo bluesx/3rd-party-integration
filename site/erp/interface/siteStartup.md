@@ -36,9 +36,9 @@
 | merchantExtAlipayAccount | 字符串 | 是 | 13322221111 | 支付宝账号 |
 | merchantPayeeName | 字符串 | 是 | admin | 收款人名称 |
 | merchantShopTitle | 字符串 | 是 | -- | 网站名称 |
-| merchantShopUrl | 字符串 | 是 | www.houtaiceshi.com |  网站域名 |
+| merchantShopUrl | 字符串 | 是 | www.a.com |  网站域名 |
 | merchantExtShopIp | 字符串 | 是 | 10.10.10.10 | 网站IP地址 |
-| merchantExtStoreUrl | 字符串 | 是 | www.store.com | 门店域名 |
+| merchantExtStoreUrl | 字符串 | 是 | www.a.com | 门店域名 |
 | merchantSiteRecord | 字符串 | 是 | 12332100000000 | 网站备案号 |
 | merchantShopLogoUrl | 字符串 | 是 | -- | 网站LOGO |
 | merchantShopWatermark | 字符串 | 否 | -- | 图片防盗水印 |
@@ -48,9 +48,9 @@
 | merchantExtGspApprove | 字符串 | 是 | -- | 药品经营质量管理规范认证证书 |
 | merchantExtDrugCert | 字符串 | 是 | -- | 药品经营许可证 |
 | merchantExtMedicalCert | 字符串 | 否 | -- | 执业药师/医师证 |
-| merchantExtMedicalequiCert | 字符串 | 否 | http://51jk.com/img/a.png | 医疗器械经营许可证 |
-| merchantExtFdcirculationCert | 字符串 | 否 | http://51jk.com/img/a.png | 食品流通证 |
-| merchantExtInterDrugInformCert | 字符串 | 否 | http://51jk.com/img/a.png | 互联网药品信息服务证 |
+| merchantExtMedicalequiCert | 字符串 | 否 | http://a.com/img/a.png | 医疗器械经营许可证 |
+| merchantExtFdcirculationCert | 字符串 | 否 | http://a.com/img/a.png | 食品流通证 |
+| merchantExtInterDrugInformCert | 字符串 | 否 | http://a.com/img/a.png | 互联网药品信息服务证 |
 | merchantExtInterDrugTradCert | 字符串 | 否 | -- | 互联网药品交易服务证 |
 | merchantSellerNick | 字符串 | 是 | admin | 管理员账号 |
 | merchantSellerPwd | 字符串 | 是 | 123456 | 登录密码 |
