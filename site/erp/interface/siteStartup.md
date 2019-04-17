@@ -13,52 +13,52 @@
 #### 1.5 请求参数
 | 参数名称 | 参数类型 | 是否必须 | 示例值 | 参数描述  |
 | :---         |     :---      |     :--- | :--- | :--- |
-| merchantName | String | 是 | 51健康 | 商家名称 |
-| merchantShopDesc | String | 是 | 51健康 | 商家简介 |
-| merchantExtLegalPerson | String | 是 | -- | 公司法人 |
-| merchantCompanyName | String | 是 | -- | 公司名称 |
+| merchantName | 字符串 | 是 | 51健康 | 商家名称 |
+| merchantShopDesc | 字符串 | 是 | 51健康 | 商家简介 |
+| merchantExtLegalPerson | 字符串 | 是 | -- | 公司法人 |
+| merchantCompanyName | 字符串 | 是 | -- | 公司名称 |
 | merchantShopArea | Integer | 是 | 310109 | 公司所在区域编码 |
-| merchantShopAddress | String | 是 | 四川北路 | 公司地址 |
-| merchantServicePhone | String | 是 | 0550123456 | 客服电话 |
-| merchantLegalName | String | 是 | 张三 | 负责人姓名 |
-| merchantLegalMobile | String | 是 | 13322221111 | 负责人电话 |
-| merchantCompanyEmail | String | 否 | -- | 公司邮箱地址 |
-| merchantShopQQ | String | 否 | -- | 公司QQ |
-| merchantCardId | String | 否 | -- | 商家会员卡 |
-| merchantShortMessageSign | String | 是 | -- | 短信签名 |
-| merchantExtTradeCertNumber | String | 否 | -- | 互联网药品交易资格证 |
-| merchantShopwxUrl | String | 否 | -- | 微信域名 |
-| merchantShopWeixin | String | 否 | -- | 微信服务号 |
-| merchantExtWxAppid | String | 否 | -- | 微信appid |
-| merchantExtWxSecret | String | 否 | -- | 微信appsecret |
-| merchantExtWxOriginalId | String | 否 | -- | 微信的原始id |
-| merchantExtIntegralName | String | 否 | -- | 积分名称 |
-| merchantExtAlipayAccount | String | 是 | 13322221111 | 支付宝账号 |
-| merchantPayeeName | String | 是 | admin | 收款人名称 |
-| merchantShopTitle | String | 是 | -- | 网站名称 |
-| merchantShopUrl | String | 是 | www.houtaiceshi.com |  网站域名 |
-| merchantExtShopIp | String | 是 | 10.10.10.10 | 网站IP地址 |
-| merchantExtStoreUrl | String | 是 | www.store.com | 门店域名 |
-| merchantSiteRecord | String | 是 | 12332100000000 | 网站备案号 |
-| merchantShopLogoUrl | String | 是 | -- | 网站LOGO |
-| merchantShopWatermark | String | 否 | -- | 图片防盗水印 |
-| merchantExtCompanyQualUrl | String | 是 | -- | 营业执照 |
-| merchantExtTaxCertificate | String | 是 | -- | 税务登记证 |
-| merchantExtOrganizationCodecert | String | 是 | -- | 组织机构代码证 |
-| merchantExtGspApprove | String | 是 | -- | 药品经营质量管理规范认证证书 |
-| merchantExtDrugCert | String | 是 | -- | 药品经营许可证 |
-| merchantExtMedicalCert | String | 否 | -- | 执业药师/医师证 |
-| merchantExtMedicalequiCert | String | 否 | http://51jk.com/images/logo.png | 医疗器械经营许可证 |
-| merchantExtFdcirculationCert | String | 否 | http://51jk.com/images/logo.png | 食品流通证 |
-| merchantExtInterDrugInformCert | String | 否 | http://51jk.com/images/logo.png | 互联网药品信息服务证 |
-| merchantExtInterDrugTradCert | String | 否 | -- | 互联网药品交易服务证 |
-| merchantSellerNick | String | 是 | admin | 管理员账号 |
-| merchantSellerPwd | String | 是 | 123456 | 登录密码 |
-| merchantIsFrozen | Integer | 是 | 1 | 是否允许登录，1：不允许（默认） 0：允许 |
-| merchantSiteStatus | Integer | 是 | 110 | 网站运行状态，110：审核中（默认） 120：试运行（限制交易）130：正常运行 999：封网|
-| merchantWxSiteStatus | Integer | 是 | 110 | 微信站运行状态，110：审核中（默认） 120：试运行（限制交易）130：正常运行 999：封网 |
-| merchantExtAllowRefund | Integer | 是 | 1 | 退款设置，1：允许用户在线退款 0：不允许用户在线退款 |
-| merchantExtRecipeFrontendSetting | Integer | 是 | 110 | 处方药设置，110：商品相关设置（电脑端和移动端） 120：网站隐藏设置（电脑端和移动端）140：订单相关设置（电脑端和移动端） |
+| merchantShopAddress | 字符串 | 是 | 四川北路 | 公司地址 |
+| merchantServicePhone | 字符串 | 是 | 0550123456 | 客服电话 |
+| merchantLegalName | 字符串 | 是 | 张三 | 负责人姓名 |
+| merchantLegalMobile | 字符串 | 是 | 13322221111 | 负责人电话 |
+| merchantCompanyEmail | 字符串 | 否 | -- | 公司邮箱地址 |
+| merchantShopQQ | 字符串 | 否 | -- | 公司QQ |
+| merchantCardId | 字符串 | 否 | -- | 商家会员卡 |
+| merchantShortMessageSign | 字符串 | 是 | -- | 短信签名 |
+| merchantExtTradeCertNumber | 字符串 | 否 | -- | 互联网药品交易资格证 |
+| merchantShopwxUrl | 字符串 | 否 | -- | 微信域名 |
+| merchantShopWeixin | 字符串 | 否 | -- | 微信服务号 |
+| merchantExtWxAppid | 字符串 | 否 | -- | 微信appid |
+| merchantExtWxSecret | 字符串 | 否 | -- | 微信appsecret |
+| merchantExtWxOriginalId | 字符串 | 否 | -- | 微信的原始id |
+| merchantExtIntegralName | 字符串 | 否 | -- | 积分名称 |
+| merchantExtAlipayAccount | 字符串 | 是 | 13322221111 | 支付宝账号 |
+| merchantPayeeName | 字符串 | 是 | admin | 收款人名称 |
+| merchantShopTitle | 字符串 | 是 | -- | 网站名称 |
+| merchantShopUrl | 字符串 | 是 | www.houtaiceshi.com |  网站域名 |
+| merchantExtShopIp | 字符串 | 是 | 10.10.10.10 | 网站IP地址 |
+| merchantExtStoreUrl | 字符串 | 是 | www.store.com | 门店域名 |
+| merchantSiteRecord | 字符串 | 是 | 12332100000000 | 网站备案号 |
+| merchantShopLogoUrl | 字符串 | 是 | -- | 网站LOGO |
+| merchantShopWatermark | 字符串 | 否 | -- | 图片防盗水印 |
+| merchantExtCompanyQualUrl | 字符串 | 是 | -- | 营业执照 |
+| merchantExtTaxCertificate | 字符串 | 是 | -- | 税务登记证 |
+| merchantExtOrganizationCodecert | 字符串 | 是 | -- | 组织机构代码证 |
+| merchantExtGspApprove | 字符串 | 是 | -- | 药品经营质量管理规范认证证书 |
+| merchantExtDrugCert | 字符串 | 是 | -- | 药品经营许可证 |
+| merchantExtMedicalCert | 字符串 | 否 | -- | 执业药师/医师证 |
+| merchantExtMedicalequiCert | 字符串 | 否 | http://51jk.com/images/logo.png | 医疗器械经营许可证 |
+| merchantExtFdcirculationCert | 字符串 | 否 | http://51jk.com/images/logo.png | 食品流通证 |
+| merchantExtInterDrugInformCert | 字符串 | 否 | http://51jk.com/images/logo.png | 互联网药品信息服务证 |
+| merchantExtInterDrugTradCert | 字符串 | 否 | -- | 互联网药品交易服务证 |
+| merchantSellerNick | 字符串 | 是 | admin | 管理员账号 |
+| merchantSellerPwd | 字符串 | 是 | 123456 | 登录密码 |
+| merchantIsFrozen | 整型 | 是 | 1 | 是否允许登录，1：不允许（默认） 0：允许 |
+| merchantSiteStatus | 整型 | 是 | 110 | 网站运行状态，110：审核中（默认） 120：试运行（限制交易）130：正常运行 999：封网|
+| merchantWxSiteStatus | 整型 | 是 | 110 | 微信站运行状态，110：审核中（默认） 120：试运行（限制交易）130：正常运行 999：封网 |
+| merchantExtAllowRefund | 整型 | 是 | 1 | 退款设置，1：允许用户在线退款 0：不允许用户在线退款 |
+| merchantExtRecipeFrontendSetting | 整型 | 是 | 110 | 处方药设置，110：商品相关设置（电脑端和移动端） 120：网站隐藏设置（电脑端和移动端）140：订单相关设置（电脑端和移动端） |
 | merchantExtLogisticsFlagJk | Integer | 是 | 1 | 默认物流，1：启用（默认）0：不启用 |
 | merchantExtRemark | String | 否 | -- | 备注（最大长度255） |
 --------------------- 
