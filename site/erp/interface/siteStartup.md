@@ -28,14 +28,14 @@
 | merchantShortMessageSign | 字符串 | 是 | 【51健康】 | 短信签名 |
 | merchantExtTradeCertNumber | 字符串 | 否 | http://a.com/a.png | 互联网药品交易资格证<br/>(文件URL) |
 | merchantShopWxUrl | 字符串 | 否 | www.a.com | 微信域名 |
-| merchantShopWeixin | 字符串 | 否 | -- | 微信服务号 |
+| merchantShopWeixin | 字符串 | 否 | 健康医药 | 微信服务号 |
 | merchantExtWxAppid | 字符串 | 否 | wx1daef1be17ac9d | 微信appid |
 | merchantExtWxSecret | 字符串 | 否 | wx1daef1be17ac9d | 微信appsecret |
 | merchantExtWxOriginalId | 字符串 | 否 | wx1daef1be17ac9d | 微信的原始id |
 | merchantExtIntegralName | 字符串 | 否 | -- | 积分名称 |
 | merchantExtAlipayAccount | 字符串 | 是 | 13322221111 | 支付宝账号 |
 | merchantPayeeName | 字符串 | 是 | admin | 收款人名称 |
-| merchantShopTitle | 字符串 | 是 | 健康唐 | 网站名称 |
+| merchantShopTitle | 字符串 | 是 | 健康堂 | 网站名称 |
 | merchantShopUrl | 字符串 | 是 | www.a.com |  网站域名 |
 | merchantExtShopIp | 字符串 | 是 | 10.10.10.10 | 网站IP地址 |
 | merchantExtStoreUrl | 字符串 | 是 | www.a.com | 门店域名 |
