@@ -17,7 +17,7 @@
 | merchantShopDesc | 字符串 | 是 | 51健康 | 商家简介 |
 | merchantExtLegalPerson | 字符串 | 是 | -- | 公司法人 |
 | merchantCompanyName | 字符串 | 是 | -- | 公司名称 |
-| merchantShopArea | Integer | 是 | 310109 | 公司所在区域编码 |
+| merchantShopArea | 整型 | 是 | 310109 | 公司所在区域编码 |
 | merchantShopAddress | 字符串 | 是 | 四川北路 | 公司地址 |
 | merchantServicePhone | 字符串 | 是 | 0550123456 | 客服电话 |
 | merchantLegalName | 字符串 | 是 | 张三 | 负责人姓名 |
