@@ -55,11 +55,11 @@
 | merchantSellerNick | 字符串 | 是 | admin | 管理员账号 |
 | merchantSellerPwd | 字符串 | 是 | 123456 | 登录密码 |
 | merchantIsFrozen | 整型 | 是 | 1 | 是否允许登录，<br/>1：不允许（默认） <br/>0：允许 |
-| merchantSiteStatus | 整型 | 是 | 110 | 网站运行状态，110：审核中（默认） 120：试运行（限制交易）130：正常运行 999：封网|
-| merchantWxSiteStatus | 整型 | 是 | 110 | 微信站运行状态，110：审核中（默认） 120：试运行（限制交易）130：正常运行 999：封网 |
-| merchantExtAllowRefund | 整型 | 是 | 1 | 退款设置，1：允许用户在线退款 0：不允许用户在线退款 |
-| merchantExtRecipeFrontendSetting | 整型 | 是 | 110 | 处方药设置，110：商品相关设置（电脑端和移动端） 120：网站隐藏设置（电脑端和移动端）140：订单相关设置（电脑端和移动端） |
-| merchantExtLogisticsFlagJk | 整型 | 是 | 1 | 默认物流，1：启用（默认）0：不启用 |
+| merchantSiteStatus | 整型 | 是 | 110 | 网站运行状态，<br/>110：审核中（默认） <br/>120：试运行（限制交易）<br/>130：正常运行 <br/>999：封网|
+| merchantWxSiteStatus | 整型 | 是 | 110 | 微信站运行状态，<br/>110：审核中（默认） <br/>120：试运行（限制交易）<br/>130：正常运行 <br/>999：封网 |
+| merchantExtAllowRefund | 整型 | 是 | 1 | 退款设置，<br/>1：允许用户在线退款 <br/>0：不允许用户在线退款 |
+| merchantExtRecipeFrontendSetting | 整型 | 是 | 110 | 处方药设置，<br/>110：商品相关设置（电脑端和移动端） <br/>120：网站隐藏设置（电脑端和移动端）<br/>140：订单相关设置（电脑端和移动端） |
+| merchantExtLogisticsFlagJk | 整型 | 是 | 1 | 默认物流，<br/>1：启用（默认）<br/>0：不启用 |
 | merchantExtRemark | 字符串 | 否 | -- | 备注（最大长度255） |
 --------------------- 
 #### 1.5 返回参数
