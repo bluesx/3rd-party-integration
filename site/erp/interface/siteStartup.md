@@ -45,7 +45,7 @@
 | merchantExtCompanyQualUrl | 字符串 | 是 | -- | 营业执照 |
 | merchantExtTaxCertificate | 字符串 | 是 | -- | 税务登记证 |
 | merchantExtOrganizationCodecert | 字符串 | 是 | -- | 组织机构代码证 |
-| merchantExtGspApprove | 字符串 | 是 | -- | 药品经营质量管理规范认证证书 |
+| merchantExtGspApprove | 字符串 | 是 | -- | 药品经营质量管理<br/>规范认证证书 |
 | merchantExtDrugCert | 字符串 | 是 | -- | 药品经营许可证 |
 | merchantExtMedicalCert | 字符串 | 否 | -- | 执业药师/医师证 |
 | merchantExtMedicalequiCert | 字符串 | 否 | http://a.com/img/a.png | 医疗器械经营许可证 |
