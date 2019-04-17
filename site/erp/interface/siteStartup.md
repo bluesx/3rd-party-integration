@@ -54,7 +54,7 @@
 | merchantExtInterDrugTradCert | 字符串 | 否 | -- | 互联网药品交易服务证 |
 | merchantSellerNick | 字符串 | 是 | admin | 管理员账号 |
 | merchantSellerPwd | 字符串 | 是 | 123456 | 登录密码 |
-| merchantIsFrozen | 整型 | 是 | 1 | 是否允许登录，1：不允许（默认） 0：允许 |
+| merchantIsFrozen | 整型 | 是 | 1 | 是否允许登录，<br/>1：不允许（默认） <br/>0：允许 |
 | merchantSiteStatus | 整型 | 是 | 110 | 网站运行状态，110：审核中（默认） 120：试运行（限制交易）130：正常运行 999：封网|
 | merchantWxSiteStatus | 整型 | 是 | 110 | 微信站运行状态，110：审核中（默认） 120：试运行（限制交易）130：正常运行 999：封网 |
 | merchantExtAllowRefund | 整型 | 是 | 1 | 退款设置，1：允许用户在线退款 0：不允许用户在线退款 |
