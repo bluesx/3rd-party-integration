@@ -13,8 +13,57 @@
 #### 1.5 请求参数
 | 参数名称 | 参数类型 | 是否必须 | 示例值 | 参数描述  |
 | :---         |     :---      |     :--- | :--- | :--- |
-| siteId   | 字符串     | 是    | 90301105    | 商户ID |
-| storeNumber   | 字符串     | 是    | 001,002    | 门店编号，支持多值，多值之间逗号(,)分割 |
+
+| merchantName | String | 是 | 51健康 | 商户名称 |
+| merchantShopDesc | String | 是 | 51健康 | -- |
+| merchantExtLegalPerson | String | 是 | -- | -- |
+| merchantCompanyName | String | 是 | -- | -- |
+| merchantShopArea | Integer | 是 | 310109 | -- |
+| merchantShopAddress | String | 是 | 四川北路 | -- |
+| merchantServicePhone | String | 是 | 0550123456 | -- |
+| merchantLegalName | String | 是 | -- | -- |
+| merchantLegalMobile | String | 是 | 13322221111 | -- |
+| merchantCompanyEmail | String | 否 | -- | -- |
+| merchantShopQQ | String | 否 | -- | -- |
+| merchantCardId | String | 否 | -- | -- |
+| merchantShortMessageSign | String | 是 | -- | -- |
+| merchantExtTradeCertNumber | String | 否 | -- | -- |
+| merchantShopwxUrl | String | 否 | -- | -- |
+| merchantShopWeixin | String | 否 | -- | -- |
+| merchantExtWxAppid | String | 否 | -- | -- |
+| merchantExtWxSecret | String | 否 | -- | -- |
+| merchantExtWxOriginalId | String | 否 | -- | -- |
+| merchantExtIntegralName | String | 否 | -- | -- |
+| merchantExtAlipayAccount | String | 是 | 13322221111 | -- |
+| merchantPayeeName | String | 是 | admin | -- |
+| merchantShopTitle | String | 是 | -- | -- |
+| merchantShopUrl | String | 是 | www.houtaiceshi.com | -- |
+| merchantExtShopIp | String | 是 | 10.10.10.10 | -- |
+| merchantExtStoreUrl | String | 是 | www.store.com | -- |
+| merchantSiteRecord | String | 是 | 12332100000000 | -- |
+| merchantShopLogurl | String | 是 | -- | -- |
+| merchantShopWatermark | String | 否 | -- | -- |
+| merchantExtCompanyQualurl | String | 是 | -- | -- |
+| merchantExtTaxCertificate | String | 是 | -- | -- |
+| merchantExtOrganizationCodecert | String | 是 | -- | -- |
+| merchantExtGspApprove | String | 是 | -- | -- |
+| merchantExtDrugCert | String | 是 | -- | -- |
+| merchantExtMedicalCert | String | 否 | -- | -- |
+| merchantExtMedicalequiCert | String | 否 | -- | -- |
+| merchantExtFdcirculationCert | String | 否 | -- | -- |
+| merchantExtInterDrugInformCert | String | 否 | -- | -- |
+| merchantExtInterDrugTradCert | String | 否 | -- | -- |
+| merchantSellerNick | String | 是 | admin | -- |
+| merchantSellerPwd | String | 是 | 123456 | -- |
+
+| merchantIsFrozen | String | 是 | -- | -- |
+| merchantSiteStatus | String | 是 | -- | -- |
+| merchantWxSiteStatus | String | 是 | -- | -- |
+| merchantExtAllowRefund | String | 是 | -- | -- |
+| merchantExtRecipeFrontendSetting | String | 是 | -- | -- |
+| merchantExtLogisticsFlagJk | String | 是 | -- | -- |
+| merchantExtRemark | String | 否 | -- | -- |
+
 --------------------- 
 #### 1.5 返回参数
 | 参数名称 | 参数类型 | 是否必须 | 示例值 | 参数描述  |
@@ -35,32 +84,8 @@
 {
     "code" : 10000,
     "msg" : "成功"
-    "data" : {
-      "storeNumber" : "1192",
-      "goodsList" : [{
-      "goodsCode" : "AW020785",
-      "drugName" : "复方黄松洗液",
-      "batchNumber" : "AC321321",
-      "specification" : "200毫升",
-      "manufacturer" : "国药",
-      "accountQuantity" : 2,
-      "expiryDate" : "2019-09-09"
-    },
-    {
-      "goodsCode" : "AW020786",
-      "drugName" : "孟鲁司特钠片",
-      "batchNumber" : "AC321322",
-      "specification" : "10毫克×5片",
-      "manufacturer" : "国药",
-      "accountQuantity" : 12,
-      "expiryDate" : "2020-09-09"
-    }
-    ]
-    }
 }
-```
 #### 1.7 请求失败
-```
 {
   "code": 20000,
   "msg" : "失败,相关原因"
