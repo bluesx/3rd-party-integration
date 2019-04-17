@@ -48,9 +48,9 @@
 | merchantExtGspApprove | String | 是 | -- | 药品经营质量管理规范认证证书 |
 | merchantExtDrugCert | String | 是 | -- | 药品经营许可证 |
 | merchantExtMedicalCert | String | 否 | -- | 执业药师/医师证 |
-| merchantExtMedicalequiCert | String | 否 | http://www.51jk.com/images/logo.png | 医疗器械经营许可证 |
-| merchantExtFdcirculationCert | String | 否 | http://www.51jk.com/images/logo.png | 食品流通证 |
-| merchantExtInterDrugInformCert | String | 否 | http://www.51jk.com/images/logo.png | 互联网药品信息服务证 |
+| merchantExtMedicalequiCert | String | 否 | http://51jk.com/images/logo.png | 医疗器械经营许可证 |
+| merchantExtFdcirculationCert | String | 否 | http://51jk.com/images/logo.png | 食品流通证 |
+| merchantExtInterDrugInformCert | String | 否 | http://51jk.com/images/logo.png | 互联网药品信息服务证 |
 | merchantExtInterDrugTradCert | String | 否 | -- | 互联网药品交易服务证 |
 | merchantSellerNick | String | 是 | admin | 管理员账号 |
 | merchantSellerPwd | String | 是 | 123456 | 登录密码 |
@@ -74,6 +74,8 @@
     "code" : 10000,
     "msg" : "成功"
 }
+```
+```
 #### 1.7 请求失败
 {
   "code": 20000,
