@@ -29,9 +29,9 @@
 | merchantExtTradeCertNumber | 字符串 | 否 | http://a.com/a.png | 互联网药品交易资格证<br/>(文件URL) |
 | merchantShopWxUrl | 字符串 | 否 | www.a.com | 微信域名 |
 | merchantShopWeixin | 字符串 | 否 | -- | 微信服务号 |
-| merchantExtWxAppid | 字符串 | 否 | wx1daef781be17ac9d | 微信appid |
-| merchantExtWxSecret | 字符串 | 否 | -- | 微信appsecret |
-| merchantExtWxOriginalId | 字符串 | 否 | -- | 微信的原始id |
+| merchantExtWxAppid | 字符串 | 否 | wx1daef1be17ac9d | 微信appid |
+| merchantExtWxSecret | 字符串 | 否 | wx1daef1be17ac9d | 微信appsecret |
+| merchantExtWxOriginalId | 字符串 | 否 | wx1daef1be17ac9d | 微信的原始id |
 | merchantExtIntegralName | 字符串 | 否 | -- | 积分名称 |
 | merchantExtAlipayAccount | 字符串 | 是 | 13322221111 | 支付宝账号 |
 | merchantPayeeName | 字符串 | 是 | admin | 收款人名称 |
