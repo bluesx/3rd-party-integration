@@ -37,10 +37,10 @@
 | adverseReactioins | String | 是 | 偶见皮肤刺激症状 | 不良反应 | 
 | goodsNote | String | 是 | 1、本品仅限于外用<br/>2、若伤风感冒常期未愈<br/>或同时有发烧者，<br/>不宜使用本品，应到医院诊治<br/>3、婴儿避免鼻孔使用及不宜长期使用。<br/>4、本品不宜大面积使用<br/>5、当药品性状发生改变时禁用<br/>6、儿童必须在成人的监护下使用<br/>7、请将本品放在儿童不能接触的地方 | 注意事项 | 
 | goodsContd | String | 是 | 尚不明确 | 禁忌 | 
-| goodsDeposit | String | 否 | 阴凉干燥处，密封保存 | 贮藏/存放（非药品类特有字段） | 
+| goodsDeposit | String | 否 | 阴凉干燥处，密封保存 | 贮藏/存放<br/>（非药品类特有字段） | 
 | goodsDescription | String | 否 | 【主要成份】<br/>本品为复方制剂，<br/>含水杨酸甲酯，<br/>樟脑90毫克，<br/>薄荷脑13.5毫克，<br/> ... | 商品说明书 | 
 | cateName | String | 是 | 激素类<br/>（填入商品属于哪个种类，<br/>如中药或医药等） | 分类名称 | 
-| goodsTitle | String | 是 | 曼秀雷敦薄荷膏28g | 商品标题（用户自定义）,字数限制在60-80 | 
+| goodsTitle | String | 是 | 曼秀雷敦薄荷膏28g | 商品标题（用户自定义）,<br/>字数限制在60-80 | 
 | tagsName | String | 否 | 感冒，消炎，止痒 | 标签名 | 
 | shopPrice | Integer | 是 | 1000 | 药房价格（以分为单位)）| 
 | marketPrice | Integer | 否 | 1000 | 市场价格（以分为单位） | 
