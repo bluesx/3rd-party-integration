@@ -31,9 +31,9 @@
 | isMedicare | Integer | 否 | 1 | 是否医保 <br/>1=非医保, <br/>2=甲类医保, <br/>3=乙类医保 | 
 | medicareCode | String | 否 | 1122332211 | 医保编码 | 
 | barCode | String | 否 | 6917246200887 | 商品条形码 | 
-| mainIngredient | String | 否 | 本品为复方制剂，<br/>其组份为每瓶含：<br/>薄荷脑135mg、<br/>樟脑900mg、<br/>水杨酸甲酯、桉油、<br/>松节油、凡士林。 | 药品主要成分/产品参数(非药品类) | 
-| goodsIndications | String | 是 | 本品用于伤风感冒所致的<br/>鼻塞，<br/>昆虫叮咬，<br/>皮肤皲裂，<br/>轻度烧烫伤，<br/>擦伤、晒伤<br/>及皮肤瘙痒。 | 功能主治/功能介绍（非药品类) | 
-| goodsAction | String | 否 | 本品具有<br/>消炎、<br/>止痛、<br/>和止痒作用。 | 药理作用/产品特色(非药品类) | 
+| mainIngredient | String | 否 | 本品为复方制剂，<br/>其组份为每瓶含：<br/>薄荷脑135mg、<br/>樟脑900mg、<br/>水杨酸甲酯、桉油、<br/>松节油、凡士林。 | 药品主要成分<br/>/产品参数(非药品类) | 
+| goodsIndications | String | 是 | 本品用于伤风感冒所致的<br/>鼻塞，<br/>昆虫叮咬，<br/>皮肤皲裂，<br/>轻度烧烫伤，<br/>擦伤、晒伤<br/>及皮肤瘙痒。 | 功能主治<br/>/功能介绍（非药品类) | 
+| goodsAction | String | 否 | 本品具有<br/>消炎、<br/>止痛、<br/>和止痒作用。 | 药理作用<br/>/产品特色(非药品类) | 
 | adverseReactioins | String | 是 | 偶见皮肤刺激症状 | 不良反应 | 
 | goodsNote | String | 是 | 1、本品仅限于外用<br/>2、若伤风感冒常期未愈<br/>或同时有发烧者，<br/>不宜使用本品，应到医院诊治<br/>3、婴儿避免鼻孔使用及不宜长期使用。<br/>4、本品不宜大面积使用<br/>5、当药品性状发生改变时禁用<br/>6、儿童必须在成人的监护下使用<br/>7、请将本品放在儿童不能接触的地方 | 注意事项 | 
 | goodsContd | String | 是 | 尚不明确 | 禁忌 | 
