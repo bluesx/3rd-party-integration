@@ -47,7 +47,7 @@
 | costPrice | Integer | 否 | 800 | 成本价<br/>（以分为单位） | 
 | inStock | Integer | 是 | 100 | 库存(件) | 
 | goodsWeight | Integer | 是 | 28 | 重量(克) | 
-| controlNum | Integer | 是 | 5 | 限购（n件）, 0为不限购 | 
+| controlNum | Integer | 是 | 5 | 限购（n件）,<br/> 0为不限购 | 
 --------------------- 
 #### 1.5 返回参数
 | 参数名称 | 参数类型 | 是否必须 | 示例值 | 参数描述  |
