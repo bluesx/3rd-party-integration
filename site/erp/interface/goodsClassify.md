@@ -7,7 +7,7 @@
 > POST
 #### 1.3 url
 * 线上系统：
-> /goods/classify
+> /goods/goodsClassify
 #### 1.4 数据方向
 > 线上系统-->ERP
 #### 1.5 请求参数
