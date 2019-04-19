@@ -14,53 +14,110 @@
 | 参数名称 | 参数类型 | 是否必须 | 示例值 | 参数描述  |
 | :---         |     :---      |     :--- | :--- | :--- |
 | siteId   | String     | 是    | 90301105    | 商户ID |
-| parentId   | Integer     | 是    | 0    | 父类ID: 0(表示顶级分类)，其它数字为分类的ID即分类表主键 |
-| cateCode | String | 是 | 1000 | 商品分类 eg：一级分类（1000）、二级分类（10001000）、三级分类（100010001000）|
-| cateName | String | 是 | 处方药 | 分类名称 |
-| imgHash | String | 是 | http://abc.com/a.jpg | 分类图片 |
+| cateGrade | Integer | 是 | 1 | 分类等级，1：一级分类 2：二级分类 3：三级分类（最多只有三级）|
+| cateName | String | 是 | 中西药品 | 分类名称 |
+| imgUrl | String | 是 | http://abc.com/a.jpg | 分类图片地址 |
 
+--------------------- 
+#### 1.6 请求参数格式
+ ```
+ {
+    "siteId":100320,
+    "data":{
+       "cateGrade":1,
+       "context":[{
+          "cateName":"一级分类",
+          "imgUrl":"http://abc.com/a.jpg",
+          "data":{
+             "cateGrade":2,
+             "context":[{
+                "cateName":"二级分类-1",
+                "imgUrl":"http://abc.com/a1.jpg",
+                "data":{
+                   "cateGrade":3,
+                   "context":[{
+                      "cateName":"三级分类-1-1",
+                      "imgUrl":"http://abc.com/a11.jpg"
+                   },{
+                      "cateName":"三级分类-1-2",
+                      "imgUrl":"http://abc.com/a12.jpg"
+                   },{
+                      "cateName":"三级分类-1-3",
+                      "imgUrl":"http://abc.com/a13.jpg"
+                   }]
+                }
+             },{
+                "cateName":"二级分类-2",
+                "imgUrl":"http://abc.com/a2.jpg",
+                "data":{
+                   "cateGrade":3,
+                   "context":[{
+                      "cateName":"三级分类-2-1",
+                      "imgUrl":"http://abc.com/a21.jpg"
+                   },{
+                      "cateName":"三级分类-2-2",
+                      "imgUrl":"http://abc.com/a22.jpg"
+                   }]
+                }
+             }]
+          }
+       },{
+          "cateName":"中西药品",
+          "imgUrl":"http://abc.com/b.jpg",
+          "data":{
+             "cateGrade":2,
+             "context":[{
+                "cateName":"胃肠疾病",
+                "imgUrl":"http://abc.com/b1.jpg",
+                "data":{
+                   "cateGrade":3,
+                   "context":[{
+                      "cateName":"消化不良",
+                      "imgUrl":"http://abc.com/b11.jpg"
+                   },{
+                      "cateName":"便秘",
+                      "imgUrl":"http://abc.com/b12.jpg"
+                   }]
+                }
+             },{
+                "cateName":"抗菌消炎",
+                "imgUrl":"http://abc.com/b2.jpg",
+                "data":{
+                   "cateGrade":3,
+                   "context":[{
+                      "cateName":"消炎类",
+                      "imgUrl":"http://abc.com/b21.jpg"
+                   },{
+                      "cateName":"清热解毒类",
+                      "imgUrl":"http://abc.com/b22.jpg"
+                   },{
+                      "cateName":"抗炎镇痛类",
+                      "imgUrl":"http://abc.com/b23.jpg"
+                   },{
+                      "cateName":"抗真菌",
+                      "imgUrl":"http://abc.com/b24.jpg"
+                   }]
+                }
+             }]
+          }
+       }]
+    }
+ }
+ 
+ ```
 --------------------- 
 #### 1.5 返回参数
 | 参数名称 | 参数类型 | 是否必须 | 示例值 | 参数描述  |
 | :---         |     :---      |     :--- | :--- | :--- |
 | code   | 字符串     | 是    | 10000    | 请求状态值，10000:成功;20000:失败 |
 | msg   | 字符串    | 是    | 成功    | 成功或失败消息 |
-| storeNumber   | 字符串    | 是    | 1192    | 门店编号 |
-| goodsCode   | 字符串    | 是    | AW020785    | 商品编码 |
-| drugName   | 字符串    | 是    | 复方黄松洗液    | 药品名称 |
-| batchNumber   | 字符串    | 是    | AC321321    | 批号 |
-| specification   | 字符串    | 否    | 200毫升    | 规格 |
-| manufacturer   | 字符串    | 否    | 国药    | 生产商家 |
-| accountQuantity   | 浮点    | 是    | 2.00   | 账面库存数，保留两位小数 |
-| expiryDate   | 日期    | 否    | 2019-09-09   | 有效期 yyy-MM-dd |
+
 --------------------- 
 #### 1.6 返回成功(匹配到库存信息)
  ``` 
 {
     "code" : 10000,
     "msg" : "成功"
-    "data" : {
-      "storeNumber" : "1192",
-      "goodsList" : [{
-      "goodsCode" : "AW020785",
-      "drugName" : "复方黄松洗液",
-      "batchNumber" : "AC321321",
-      "specification" : "200毫升",
-      "manufacturer" : "国药",
-      "accountQuantity" : 2,
-      "expiryDate" : "2019-09-09"
-    },
-    {
-      "goodsCode" : "AW020786",
-      "drugName" : "孟鲁司特钠片",
-      "batchNumber" : "AC321322",
-      "specification" : "10毫克×5片",
-      "manufacturer" : "国药",
-      "accountQuantity" : 12,
-      "expiryDate" : "2020-09-09"
-    }
-    ]
-    }
 }
 ```
 #### 1.7 请求失败
