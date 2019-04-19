@@ -13,7 +13,7 @@
 #### 1.5 请求参数
 | 参数名称 | 参数类型 | 是否必须 | 示例值 | 参数描述  |
 | :---         |     :---      |     :--- | :--- | :--- |
-| siteId   | String     | 是    | 90301105    | 商户ID |
+| siteId   | String     | 是    | 100320    | 商户ID |
 | cateGrade | Integer | 是 | 1 | 分类等级，1：一级分类 2：二级分类 3：三级分类（最多只有三级）|
 | cateName | String | 是 | 中西药品 | 分类名称 |
 | imgUrl | String | 是 | http://abc.com/a.jpg | 分类图片地址 |
