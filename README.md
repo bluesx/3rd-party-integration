@@ -12,7 +12,7 @@
   + [会员信息更新](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/userUpdate.md)
   + [会员积分获取](#)
   + [会员积分消费查询](#)
-* [商品基础信息维护--待定](#)
+* [商品基础信息维护](#)
   + [实时商品分类信息同步](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/goodsClassify.md)
   + [实时单个商品信息同步](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/goods.md)
   + [实时批量商品信息同步](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/goodsList.md)
@@ -30,8 +30,6 @@
   + [盘点审批查询](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/inventoryApprovedGoods.md)
 * [站点信息](#)
   + [实时开站](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/siteStartup.md)
-* [自动生成商品记录](#)
-  + [批量生成商品](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/autoCreateGoodsInfo.md)
 ## ~~第三方对接——数据库方案~~
 * [订单同步](#)
   + [订单推送](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/database/orders_sync.md)
