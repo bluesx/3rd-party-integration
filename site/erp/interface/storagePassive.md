@@ -27,8 +27,7 @@
 ```
 {
   "unitNo":"913",
-  "goodsList":[
-  {
+  "goodsList":[{
     "goodsCode": "90301104",
     "specification": "10*10",
     "state": "0",
@@ -39,9 +38,7 @@
     "specification": "10*10",
     "state": "0",
     "inventoryQuantity": "22.00"
-  }
-  ]
-  
+  }]
 }
 ```
 #### 1.7 返回参数
