@@ -10,6 +10,7 @@
   + [会员积分交互](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/memberPointsInteraction.md)
   + [会员信息推送(**_基础接口_**)](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/userInfo.md)
   + [会员信息更新](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/userUpdate.md)
+  + [会员积分初始化](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/initializeMemberPoints.md)
   + [会员积分获取](#)
   + [会员积分消费查询](#)
   + [标签信息同步](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/userTags.md)
