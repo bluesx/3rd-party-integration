@@ -36,6 +36,7 @@
 | :---         |     :---      |     :--- | :--- | :--- |
 | unitNo   | 字符串    | 是    | 2    | 门店id |
 | goodsCode   | 字符串    | 是    |   90301104  | 商品编码 |
+| barCode   | 字符串    | 否    |   80301104  | 商品条形码 |
 | specification   | 字符串    | 是    |   10*10  | 商品规格 |
 | state   | 整型    | 是    |   0  | 商品状态:: 0: 正常，1:不正常，2:删除|
 | inventoryQuantity   | 浮点型    | 是    |   39.00  | 库存数量，两位小数|
@@ -49,12 +50,14 @@
       "inventoryList" : [{
         "unitNo" : "2",
         "goodsCode" : "90301104",
+        "barCode": "80301104",
         "specification" : "90301104",
         "state" : "0",//状态 0 正常，1不正常，2删除
         "inventoryQuantity" : "16.00"
     }, {
         "unitNo" : "4",
         "goodsCode" : "90301104",
+        "barCode": "80301104",
         "specification" : "90301104",
         "state" : "0",//状态 0 正常，1不正常，2删除
         "inventoryQuantity" : "39.00"
