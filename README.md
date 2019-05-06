@@ -1,10 +1,7 @@
 ## 第三方对接——接口方案
-* [请求注册](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/accessToken.md)
 * [订单同步](#)
   + [订单推送(**_基础接口_**)](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/orderPush.md)
-  + ~~[订单查询](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/orderList.md)~~
 * [库存信息](#)
-  + [实时库存--主动方式(**_基础接口_**)](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/storageActive.md)
   + [实时库存--被动方式(**_基础接口_**)](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/storagePassive.md)
 * [会员信息](#)
   + [会员积分交互](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/memberPointsInteraction.md)
@@ -26,9 +23,7 @@
 * [盘点信息](#)
   + [盘点接口交互](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/inventoryInteraction.md)
   + [盘点数据读取](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/inventoryGoodsInfo.md)
-  + ~~[获取实时库存](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/inventoryStorage.md)~~
   + [盘点审批通知](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/inventoryApprovedNotify.md)
-  + ~~[盘点审批回传](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/inventoryApproved.md)~~
   + [盘点审批查询](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/inventoryApprovedGoods.md)
 * [站点信息](#)
   + [实时开站](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/siteStartup.md)
