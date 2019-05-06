@@ -11,5 +11,4 @@
   + [会员积分查询](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/memberPointsList.md)
 * [商品价格](#)
   + [初始化商品价格](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/initializeGoodsPrices.md)
-  + [定时同步商品价格](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/multiPricePull.md)
   + [实时批量商品价格推送](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/multiPricePushBatch.md)
