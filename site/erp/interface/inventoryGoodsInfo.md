@@ -23,6 +23,7 @@
 | msg   | 字符串    | 是    | 成功    | 成功或失败消息 |
 | storeNumber   | 字符串    | 是    | 1192    | 门店编号 |
 | goodsCode   | 字符串    | 是    | AW020785    | 商品编码 |
+| barCode   | 字符串    | 否    | AW020785    | 条形码 |
 | drugName   | 字符串    | 是    | 复方黄松洗液    | 药品名称 |
 | batchNumber   | 字符串    | 是    | AC321321    | 批号 |
 | specification   | 字符串    | 否    | 200毫升    | 规格 |
@@ -39,6 +40,7 @@
       "storeNumber" : "1192",
       "goodsList" : [{
       "goodsCode" : "AW020785",
+      "barCode" : "AW020785",
       "drugName" : "复方黄松洗液",
       "batchNumber" : "AC321321",
       "specification" : "200毫升",
@@ -48,6 +50,7 @@
     },
     {
       "goodsCode" : "AW020786",
+      "barCode" : "AW020785",
       "drugName" : "孟鲁司特钠片",
       "batchNumber" : "AC321322",
       "specification" : "10毫克×5片",
