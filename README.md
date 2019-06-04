@@ -17,7 +17,7 @@
 * [商品基础信息维护](#)
   + [实时商品分类信息同步](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/goodsClassify.md)
   + [实时单个商品信息同步](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/goods.md)
-  + [实时批量商品信息同步](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/goodsList.md)
+  + ~~[实时批量商品信息同步](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/goodsList.md)~~
 * [商品价格](#)
   + [初始化商品价格](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/initializeGoodsPrices.md)
   + [定时同步商品价格](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/multiPricePull.md)
