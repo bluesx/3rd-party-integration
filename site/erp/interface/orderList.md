@@ -26,7 +26,7 @@
 | settlementStatus   | 字符串     | 是    | 200(待结算)   |结算状态:</br>110(等待买家付款),</br>120(等待卖家发货),</br>130(等待买家确认收货), </br>140（买家已签收，货到付款专用）,</br>150(交易成功)，</br>160(用户未付款主动关闭)，</br>170(超时未付款，系统关闭)|
 | payStyle   | 字符串     | 是    | cash(现金)   |支付方式:</br>ali (支付宝) ，</br>wx (微信)，</br> bil(快钱)，</br> unionPay(银联)，</br> health_insurance（医保），</br>cash（现金）,</br>prePaid(储值卡),</br>coupon(购物券) |
 | mobile   | 字符串     | 是    | 13120800149  |会员手机号|
-| orderNo   | 字符串     | 是    | 9e84c3cb6912e4e10169130b60c217b0  |平安交易单号|
+| orderNo   | 字符串     | 是    | 9e84c3cb6912e4e1016913  |平安交易单号|
 | payTime   | 字符串     | 是    | 2019-05-05 16:50:33  |订单支付时间，<br/>格式：yyyy-MM-dd HH:mm:ss||
 | postFee   | 整型     | 是    | 0  |运费，单位:分(RMB)|
 | receiverPhone   | 字符串     | 是    | 13120800149  |联系电话|
