@@ -17,7 +17,7 @@
 | 参数名称 | 参数类型 | 是否必须 | 示例值 | 参数描述  |
 | :---  |   :-------    |    :---   | :---        | :---        |
 | code   | 字符串     | 是            | 10000   |返回结果标识::10000:成功,20000:失败|
-| message   | 字符串     | 是    | Success   |返回结果描述|
+| msg   | 字符串     | 是    | Success   |返回结果描述|
 | discount   | 字符串     | 是    | 0   |优惠(元)|
 | tradesSource   | 字符串     | 是    | 170(平安健康)   |订单来源|
 | recevierName   | 字符串     | 是    | 测试   |收货人|
@@ -42,8 +42,8 @@
  ``` 
 {
   "code": "10000",
-  "message": "Success",
-  "value": [
+  "msg": "Success",
+  "data": [
     {
       "discount": 0,
       "tradesSource": "170(平安健康)",
@@ -66,17 +66,13 @@
       "receiverAddress": "内蒙古自治区呼和浩特市新城区铁建家园一号楼6单元一层西户",
       "realPay": 50
     }
-  ],
-  "status": "OK",
-  "errorMessage": null,
-  "totalPage": null
+  ]
 }
 ```
 #### 1.8 返回示例(请求失败)
 ```
 {
   "code":"20000",
-  "errorMessage": "请求失败,缺少必要参数！",
-  "status": "ERROR"
+  "msg": "请求失败,缺少必要参数！"
 }
 ```
