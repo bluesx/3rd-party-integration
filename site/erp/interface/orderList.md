@@ -24,7 +24,7 @@
 | file   | 字符串     | 是    | 2019022288927048769   |处方单号|
 | storName   | 字符串     | 是    | 61^呼市车站西街店   |服务门店名称|
 | settlementStatus   | 字符串     | 是    | 200(待结算)   |结算状态|
-| payStyle   | 字符串     | 是    | cash(现金)   |支付方式::</br>ali (支付宝) ，</br>wx (微信)，</br> bil(快钱)，</br> unionPay(银联)，</br> health_insurance（医保），</br>cash（现金）,</br>prePaid(储值卡),</br>coupon(购物券) |
+| payStyle   | 字符串     | 是    | cash(现金)   |支付方式:</br>ali (支付宝) ，</br>wx (微信)，</br> bil(快钱)，</br> unionPay(银联)，</br> health_insurance（医保），</br>cash（现金）,</br>prePaid(储值卡),</br>coupon(购物券) |
 | mobile   | 字符串     | 是    | 13120800149  |会员手机号|
 | orderNo   | 字符串     | 是    | 9e84c3cb6912e4e10169130b60c217b0  |平安交易单号|
 | payTime   | 字符串     | 是    | 2019-05-05 16:50:33  |订单支付时间，
