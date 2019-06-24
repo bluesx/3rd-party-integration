@@ -5,7 +5,7 @@
 #### 1.2 请求方式
 > POST
 #### 1.3 url
-> /merchant/orderList
+> /merchant/getOrderList
 #### 1.4 数据方向
 > 系统方至商户方
 #### 1.5 请求参数
@@ -19,25 +19,25 @@
 | code   | 字符串     | 是            | 10000   |返回结果标识::10000:成功,20000:失败|
 | message   | 字符串     | 是    | Success   |返回结果描述|
 | discount   | 字符串     | 是    | 0   |优惠(元)|
-| trades_source   | 字符串     | 是    | 170(平安健康)   |订单来源|
-| recevier_name   | 字符串     | 是    | 测试   |收货人|
+| tradesSource   | 字符串     | 是    | 170(平安健康)   |订单来源|
+| recevierName   | 字符串     | 是    | 测试   |收货人|
 | file   | 字符串     | 是    | 2019022288927048769   |处方单号|
-| stor_name   | 字符串     | 是    | 61^呼市车站西街店   |服务门店名称|
-| settlement_status   | 字符串     | 是    | 200(待结算)   |结算状态|
-| pay_style   | 字符串     | 是    | cash(现金)   |支付方式|
+| storName   | 字符串     | 是    | 61^呼市车站西街店   |服务门店名称|
+| settlementStatus   | 字符串     | 是    | 200(待结算)   |结算状态|
+| payStyle   | 字符串     | 是    | cash(现金)   |支付方式|
 | mobile   | 字符串     | 是    | 13120800149  |会员手机号|
-| order_no   | 字符串     | 是    | 9e84c3cb6912e4e10169130b60c217b0  |平安交易单号|
-| pay_time   | 字符串     | 是    | 2019-05-05 16:50:33  |付款时间|
-| post_fee   | 字符串     | 是    | 0  |运费(元)|
-| receiver_phone   | 字符串     | 是    | 13120800149  |联系电话|
-| trades_status   | 字符串     | 是    | 230(门店确认)  |交易状态|
-| create_time   | 字符串     | 是    | 2019-05-05 11:11:22  |下单时间|
-| stores_number   | 字符串     | 是    | 8065  |服务门店编码|
-| total_fee   | 字符串     | 是    | 50  |商品总价(元)|
-| post_style   | 字符串     | 是    | 150(送货上门)  |配送方式|
-| trades_id   | 字符串     | 是    | 1001901550802714310  |51订单号|
-| receiver_address    | 字符串     | 是    | 内蒙古自治区呼和浩特市新城区铁建家园一号楼6单元一层西户  |收货地址|
-| real_pay   | 字符串     | 是    | 50  |实付款(元)|
+| orderNo   | 字符串     | 是    | 9e84c3cb6912e4e10169130b60c217b0  |平安交易单号|
+| payTime   | 字符串     | 是    | 2019-05-05 16:50:33  |付款时间|
+| postFee   | 字符串     | 是    | 0  |运费(元)|
+| receiverPhone   | 字符串     | 是    | 13120800149  |联系电话|
+| tradesStatus   | 字符串     | 是    | 230(门店确认)  |交易状态|
+| createTime   | 字符串     | 是    | 2019-05-05 11:11:22  |下单时间|
+| storesNumber   | 字符串     | 是    | 8065  |服务门店编码|
+| totalFee   | 字符串     | 是    | 50  |商品总价(元)|
+| postStyle   | 字符串     | 是    | 150(送货上门)  |配送方式|
+| tradesId   | 字符串     | 是    | 1001901550802714310  |51订单号|
+| receiverAddress    | 字符串     | 是    | 内蒙古自治区呼和浩特市新城区铁建家园一号楼6单元一层西户  |收货地址|
+| realPay   | 字符串     | 是    | 50  |实付款(元)|
 #### 1.7 返回示例(请求成功)
  ``` 
 {
@@ -46,25 +46,25 @@
   "value": [
     {
       "discount": 0,
-      "trades_source": "170(平安健康)",
-      "recevier_name": "测试",
+      "tradesSource": "170(平安健康)",
+      "recevierName": "测试",
       "file": "2019022288927048769",
-      "stor_name": "61^呼市车站西街店",
-      "settlement_status": "200(待结算)",
-      "pay_style": "cash(现金)",
+      "storName": "61^呼市车站西街店",
+      "settlementStatus": "200(待结算)",
+      "payStyle": "cash(现金)",
       "mobile": "13120800149",
-      "order_no": "9e84c3cb6912e4e10169130b60c217b0",
-      "pay_time": "2019-05-05 16:50:33",
-      "post_fee": 0,
-      "receiver_phone": "13120800149",
-      "trades_status": "230(门店确认)",
-      "create_time": "2019-05-05 11:11:22",
-      "stores_number": "8065",
-      "total_fee": 50,
-      "post_style": "150(送货上门)",
-      "trades_id": 1001901550802714310,
-      "receiver_address": "内蒙古自治区呼和浩特市新城区铁建家园一号楼6单元一层西户",
-      "real_pay": 50
+      "orderNo": "9e84c3cb6912e4e10169130b60c217b0",
+      "payTime": "2019-05-05 16:50:33",
+      "postFee": 0,
+      "receiverPhone": "13120800149",
+      "tradesStatus": "230(门店确认)",
+      "createTime": "2019-05-05 11:11:22",
+      "storesNumber": "8065",
+      "totalFee": 50,
+      "postStyle": "150(送货上门)",
+      "tradesId": 1001901550802714310,
+      "receiverAddress": "内蒙古自治区呼和浩特市新城区铁建家园一号楼6单元一层西户",
+      "realPay": 50
     }
   ],
   "status": "OK",
