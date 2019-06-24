@@ -34,7 +34,7 @@
 | createTime   | 字符串     | 是    | 2019-05-05 11:11:22  |订单创建时间，<br/>格式：yyyy-MM-dd HH:mm:ss|
 | storesNumber   | 字符串     | 是    | 8065  |服务门店编码|
 | totalFee   | 整型     | 是    | 50  |商品总价,单位:分(RMB)|
-| postStyle   | 字符串     | 是    | 150  |购买方式::</br>150：送货上门；</br>160：门店自提；</br>170：门店直购 |
+| postStyle   | 字符串     | 是    | 150  |购买方式:</br>150：送货上门；</br>160：门店自提；</br>170：门店直购 |
 | tradesId   | 字符串     | 是    | 1001901550802714310  |51订单号|
 | receiverAddress    | 字符串     | 是    | 内蒙古自治区呼和浩特市新城区</br>铁建家园一号楼6单元一层西户  |收货地址|
 | realPay   | 字符串     | 是    | 50  |实付款，单位:分(RMB)，即实收金额|
@@ -45,26 +45,26 @@
   "msg": "Success",
   "data": [
     {
-      "discount": 0,
-      "tradesSource": "170(平安健康)",
-      "recevierName": "测试",
-      "file": "2019022288927048769",
-      "storName": "61^呼市车站西街店",
-      "settlementStatus": "200(待结算)",
-      "payStyle": "cash(现金)",
-      "mobile": "13120800149",
-      "orderNo": "9e84c3cb6912e4e10169130b60c217b0",
-      "payTime": "2019-05-05 16:50:33",
-      "postFee": 0,
-      "receiverPhone": "13120800149",
-      "tradesStatus": "230(门店确认)",
-      "createTime": "2019-05-05 11:11:22",
-      "storesNumber": "8065",
-      "totalFee": 50,
-      "postStyle": "150(送货上门)",
-      "tradesId": 1001901550802714310,
-      "receiverAddress": "内蒙古自治区呼和浩特市新城区铁建家园一号楼6单元一层西户",
-      "realPay": 50
+      "discount": 0,//优惠金额
+      "tradesSource": "170",//订单来源
+      "recevierName": "测试",//收货人姓名
+      "file": "2019022288927048769",//处方单号
+      "storName": "61^呼市车站西街店",//服务门店名称
+      "settlementStatus": "200",//结算状态
+      "payStyle": "cash",//支付方式
+      "mobile": "13120800149",//会员手机号
+      "orderNo": "9e84c3cb6912e4e10169130b60c217b0",//平安交易单号
+      "payTime": "2019-05-05 16:50:33",//订单支付时间
+      "postFee": 0,//运费，单位:分(RMB)
+      "receiverPhone": "13120800149",//联系电话
+      "tradesStatus": "230",//交易状态
+      "createTime": "2019-05-05 11:11:22",//订单创建时间
+      "storesNumber": "8065",//服务门店编码
+      "totalFee": 50,//商品总价,单位:分(RMB)
+      "postStyle": "150",//购买方式
+      "tradesId": 1001901550802714310,//51订单号
+      "receiverAddress": "内蒙古自治区呼和浩特市新城区铁建家园一号楼6单元一层西户",//收货地址
+      "realPay": 50//实付款，单位:分(RMB)，即实收金
     }
   ]
 }
