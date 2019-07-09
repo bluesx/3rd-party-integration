@@ -1,5 +1,5 @@
 ## 第三方对接——接口方案
-* [请求注册](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/accessToken.md)
+* [访问权限](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/accessToken.md)
 * [订单同步](#)
   + [订单推送(**_基础接口_**)](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/orderPush.md)
   + [订单查询](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/orderList.md)
