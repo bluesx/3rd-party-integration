@@ -13,7 +13,7 @@
 > post
 
 #### 1.3 url
-
+**线上系统**:
 > /member/updateMemberIntegralPush
 
 #### 1.4 数据方向
