@@ -14,6 +14,8 @@
   + [会员积分推送](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/memberPointsPush.md)
   + [会员积分查询](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/memberPointsList.md)
   + [标签信息同步](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/userTags.md)
+  + [主动推送erp会员信息](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/updateMemberInfoPush.md)
+  + [erp会员积分变动推送](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/updateMemberIntegralPush.md)
 * [商品基础信息维护](#)
   + [实时商品分类信息同步](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/goodsClassify.md)
   + [实时单个商品信息同步](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/goods.md)
