@@ -17,7 +17,7 @@
 > post
 
 #### 1.3 url
-
+**线上系统**:
 > /member/updateMemberInfoPush
 
 #### 1.4 数据方向
