@@ -51,8 +51,8 @@
 ```
 {
   "code":"10000",
-  "WXToken":"EOQPHiTXVHl2PXJZDRoXXXXXXXXX",
-  "WXTicket"："Ngv8u5fhpizQZv9x1dtqXXXXXXX"
+  "WxToken":"EOQPHiTXVHl2PXJZDRoXXXXXXXXX",
+  "WxTicket"："Ngv8u5fhpizQZv9x1dtqXXXXXXX"
   "msg": "获取成功"
 }
 ```
