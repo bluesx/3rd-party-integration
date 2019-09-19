@@ -6,7 +6,7 @@
 
 #### 1.1 接口描述
 
-* 获取微信端access_token&ticket
+* 获取access_token&ticket
 
 * 申请accessToken,参考[访问权限](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/accessToken.md)
 
@@ -31,7 +31,16 @@
 | siteId      | 字符串   | 是       | 100190               | 商户id      |
 | accessToken | 字符串   | 是       | acfde325c8b9bbgyR57B | accessToken |
 
-#### 1.6 请求示例
+#### 1.6 返回参数
+
+| 参数名称 | 参数类型 | 是否必须 | 示例值                   | 说明   |
+| :------- | :------- | :------- | :----------------------- | ------ |
+| wxToken  | 字符串   | 是       | EOQPHiTXVHl2PXJZDRoXXXX  | token  |
+| wxTicket | 字符串   | 是       | Ngv8u5fhpizQZv9x1dtqXXXX | ticket |
+| code     | 字符串   | 是       | 10000                    | 状态码 |
+| msg      | 字符串   | 是       | 获取成功                 | 标识   |
+
+#### 1.7 请求示例
 
 ```java
 
@@ -40,13 +49,14 @@
     "accessToken":"acfde325c8b9bbgyR57B",
 }
 
+
 ```
 
 ----
 
 
 
-#### 1.7 返回示例(请求成功)
+#### 1.8 返回示例(请求成功)
 
 ```
 {
@@ -57,7 +67,7 @@
 }
 ```
 
-#### 1.8 返回示例(请求失败)
+#### 1.9 返回示例(请求失败)
 
 ```
 {
