@@ -41,6 +41,10 @@ ERP：
 | cardNo   | 字符串     | 否    | 100159   | 会员卡号 |
 | orderCreateTime   | 时间     | 是    | 2019-01-23 12:43:43   | 订单创建时间，<br/>格式：yyyy-MM-dd HH:mm:ss|
 | orderPaymentTime   | 时间     | 是    | 2019-01-23 12:43:43   | 订单支付时间，<br/>格式：yyyy-MM-dd HH:mm:ss|
+| drugName   | 字符串     | 否    | 肾石通颗粒   | 药品通用名 |
+| goodsCompany   | 字符串     | 否    | 辉瑞制药有限公司   | 生产厂家 |
+| barCode   | 字符串     | 否    | 6923404010175   | 条形码 |
+
 --------------------- 
 #### 1.6 返回参数(JSON)
 | 参数名称 | 参数类型 | 是否必须 | 示例值 | 参数描述  |
@@ -69,6 +73,9 @@ ERP：
            "paymentAmount": 80
         }
         ],
+        "drugName":"肾石通颗粒",//药品通用名
+        "goodsCompany":"辉瑞制药有限公司",//厂家
+        "barCode":"6923404010175",//条形码
         "poststyle": 170,//购买方式::150：送货上门；160：门店自提；170：门店直购
         "tradesId": 1002241501752197580,//订单编号
         "siteId": "100150",//商户ID
@@ -111,3 +118,4 @@ ERP：
 * storeUserMobile属性目前仅提供给100309
 * tradesSource属性目前仅提供给100271
 * siteId字段会推送出来，ERP方看需要获取
+* drugName,goodsCompany,barCode三个属性目前仅提供给100320
