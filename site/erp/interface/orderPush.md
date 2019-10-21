@@ -96,12 +96,18 @@ ERP：
             "goodsSpecification": "10mg*100s",//商品规格
             "goodsCode": "32301029",//商品编码
             "goodsNumber": 1//购买数量
+            "drugName":"肾石通颗粒",//药品通用名
+            "goodsCompany":"辉瑞制药有限公司",//生产厂家
+            "barCode":"6923404010175"//条形码
           },
           {
             "goodsPrice": 102,//商品价格
             "goodsSpecification": "10mg*100s",//商品规格
             "goodsCode": "32301039",//商品编码
-            "goodsNumber": 1//购买数量
+            "goodsNumber": "1",//购买数量
+             "drugName":"肾石通颗粒",//药品通用名
+            "goodsCompany":"辉瑞制药有限公司",//生产厂家
+            "barCode":"6923404010175"//条形码
           }
         ]
     }
