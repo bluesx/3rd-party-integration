@@ -19,6 +19,7 @@
 | :---         |     :---      |     :--- | :--- | :--- |
 | unitNo   | 字符串    | 是    | 2    | 门店id |
 | siteId   | 字符串    | 是    | 100123    | 商户id |
+| accessToken   | 字符串     | 是    | o4GgauGJ9wBuSa8    | 访问授权 |
 | goodsCode   | 字符串    | 是    |   90301104  | 商品编码 |
 | specification   | 字符串    | 是    |   10*10  | 商品规格 |
 | state   | 整型    | 是    |   0  | 商品状态:: 0: 正常，1:不正常，2:删除|
@@ -28,6 +29,7 @@
 ```
 {
   "unitNo":"913",
+  "accessToken": "o4GgauGJ9wBuSa8",
   "siteId":"100123"，
   "goodsList":[{
     "goodsCode": "90301104",
