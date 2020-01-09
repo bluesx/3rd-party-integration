@@ -35,7 +35,9 @@
 |  | rid | int | 是 |  | 广告物料id |
 |  | video | string | 是 |  | 视频广告地址 |
 |  | videoMd5 | string | 是 |  | 视频md5校验值 |
-|  | defaultIndex | int | 否 |  | 默认图片序号 |
+| | firstImg |  |  | |  |
+| | firstImg.url | string | 是 | | 图片广告的地址(第一段) |
+| | firstImg.time | int | 是 |        | (第一段)轮播广告没张图片停留时间（秒） |
 |  | imgs |  |  |  | |
 |  | imgs.url | string | 是 |  | 图片广告的地址 |
 |  | imgs.time | int | 是 |  | 轮播广告没张图片停留时间（秒） |
@@ -45,6 +47,6 @@
 {
   "msg":"成功",
   "code":10000,
-  "data":{}
+  "data":[{},{}]
 }
 ```
