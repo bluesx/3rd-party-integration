@@ -35,12 +35,13 @@
 * [站点信息](#)
   + [实时开站](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/interface/siteStartup.md)
   ## 营销设备接口方案
-* [设备激活](#)
+* [营销设备A8](#)
   
   + [设备激活状态查询](https://github.com/bluesx/3rd-party-integration/blob/master/site/airphone/heartbeatDetection.md)
   + [广告资源获取](https://github.com/bluesx/3rd-party-integration/blob/master/site/airphone/advertiseDisplay.md)
   + [广告统计上传接口](https://github.com/bluesx/3rd-party-integration/blob/master/site/airphone/advertiseStatistical.md)
   + [静态支付接口](https://github.com/bluesx/3rd-party-integration/blob/master/site/airphone/staticPay.md)
+  + [设备升级接口](https://github.com/bluesx/3rd-party-integration/blob/master/site/airphone/deviceUpdate.md)
 ## ~~第三方对接——数据库方案~~
 * [订单同步](#)
   + [订单推送](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp/database/orders_sync.md)
