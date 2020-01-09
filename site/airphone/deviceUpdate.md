@@ -40,6 +40,10 @@
 {
   "msg":"成功",
   "code":10000,
-  "data":[{},{}]
+  "data":{
+  	"deviceMd5":"",
+  	"downloadUrl":""
+  	"version":""
+  }
 }
 ```
