@@ -9,7 +9,7 @@
 
 * 调用方：airPhone
 #### 1.2 请求方式
-> GET
+> POST
 #### 1.3 url
 * 线上系统：
 > /airPhone/staticPay
