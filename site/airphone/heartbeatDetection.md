@@ -43,12 +43,15 @@
 |  | cashierName | string | 是 |  | 用于显示收银点名称 |
 |  | type | int | 是 |  | 设备类型 |
 |  | model | string | 是 |  | 设备代号 |
+| | prePayUrl | string | 是 | | 支付二维码地址（等待拼接支付金额） |
 ---------------------
 #### 1.8 返回示例
 ```
 {
   "msg":"成功",
   "code":"10000"
-  "data":{}
+  "data":{
+  "prePayUrl":"http://host:port/new/home?siteId=100308,1054&fee="
+  }
 }
 ```
