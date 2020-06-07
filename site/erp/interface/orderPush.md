@@ -65,7 +65,7 @@ ERP：
         "discount": 0,//优惠金额
         "payList": [
         {
-           "paystyle": "wx",//支付方式:ali (支付宝) ，wx (微信)， bil(快钱)， unionPay(银联)， health_insurance（医保），cash（现金），prePaid(储值卡),coupon(购物券)
+           "paystyle": "wx",//支付方式:ali (支付宝) ，wx (微信)， bil(快钱)， unionPay(银联)， health_insurance（医保），cash（现金），prePaid(储值卡),coupon(购物券),wx_wx_huifu(微信),ali_ali_huifu(支付宝),micro_wx_huifu(微信),micro_ali_huifu(支付宝)
            "paymentAmount": 100
         },
         {
