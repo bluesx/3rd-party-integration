@@ -5,5 +5,6 @@
   + [扫码支付](https://github.com/bluesx/3rd-party-integration/blob/master/site/airphone/advertiseStatistical.md)
   + [支付结果推送码屏](https://github.com/bluesx/3rd-party-integration/blob/master/site/airphone/staticPay.md)
   + [支付结果推送POS](https://github.com/bluesx/3rd-party-integration/blob/master/site/airphone/deviceUpdate.md)
-  + [库存信息同步](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp-pos/goods-storage-sync.md)
+  + [商品库存信息同步](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp-pos/goods-storage-sync.md)
+  + [商品价格信息同步](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp-pos/goods-storage-sync.md)
   
