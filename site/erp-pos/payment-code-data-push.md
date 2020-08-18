@@ -13,7 +13,7 @@
 #### 1.3 接口定义方
 * 线上系统
 #### 1.4 接口路径
-> /offline/payment/qrcodeData
+> /offline/payment/qrcodeDataStandby
 #### 1.5 数据流向
 > POS-->线上系统
 #### 1.6 请求参数
@@ -23,9 +23,7 @@
 | siteId   | 字符串    | 是    | 100123    | 商户id |
 | accessToken   | 字符串     | 是    | o4GgauGJ9wBuSa8    | 访问授权 |
 | goodsCode   | 字符串    | 是    |   90301104  | 商品编码 |
-| specification   | 字符串    | 是    |   10*10  | 商品规格 |
-| state   | 整型    | 是    |   0  | 商品状态:: 0: 正常，1:不正常，2:删除|
-| inventoryQuantity   | 浮点型    | 是    |   39.00  | 库存数量，两位小数|
+| goodsNum   | 浮点型    | 是    |   1.0  | 商品数量 |
 --------------------- 
 #### 1.7 请求示例
 ```
