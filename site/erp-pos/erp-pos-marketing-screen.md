@@ -1,7 +1,6 @@
 ## ERP-POS-营销码屏系统接口交互
 ### 交互图
 ![](https://jkosshash.oss-cn-shanghai.aliyuncs.com/erp-pos-interaction.png)
-![image](https://jkosshash.oss-cn-shanghai.aliyuncs.com/erp-pos-interaction.png)
 <br/>
 ### 交互说明
 * 1.线上系统创建盘点计划，创建就绪即从ERP读取库存商品数据。
