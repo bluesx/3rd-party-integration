@@ -13,7 +13,7 @@
 #### 1.3 接口定义方
 * 线上系统
 #### 1.4 接口路径
-> /offline/payment/qrcodeDataStandby
+> /offline/payment/qrcodeDataReceive
 #### 1.5 数据流向
 > POS-->线上系统
 #### 1.6 请求参数
