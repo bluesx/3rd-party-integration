@@ -10,7 +10,7 @@
 #### 1.4 接口定义方
 * 线上系统：
 #### 1.5 接口路径
-> /offline/screen/qrcodeDataGeneration
+> /offline/screen/qrcodeGeneration
 #### 1.4 数据流向
 > 线上系统-->码屏
 #### 1.6 请求参数
@@ -27,17 +27,7 @@
   "unitNo":"913",
   "accessToken": "o4GgauGJ9wBuSa8",
   "siteId":"100123"，
-  "posMoney": "85.5",
-  "goodsList":[{
-    "goodsCode": "90301104",
-    "goodsNum": "3.00"
-    "goodsPrice": "2.0"
-  },
-  {
-    "goodsCode": "90301105",
-    "goodsNum": "2.00"
-    "goodsPrice": "5.0"
-  }]
+  "tradesId": "1003091597816193975"
 }
 ```
 #### 1.8 返回参数
@@ -50,7 +40,7 @@
  ``` 
 {
     "code" : 10000,
-    "msg" : "推送成功"
+    "msg" : "操作成功"
     }
 }
 ```
@@ -58,13 +48,13 @@
 ```
 {
   "code": 10000,
-  "msg":"推送成功"
+  "msg":"操作成功"
 }
 ```
 #### 1.11 请求失败
 ```
 {
   "code": 20000,
-  "msg":"推送失败,相关原因"
+  "msg":"操作失败,相关原因"
 }
 ```
