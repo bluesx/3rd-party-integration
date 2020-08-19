@@ -31,6 +31,7 @@
   "unitNo":"913",
   "accessToken": "o4GgauGJ9wBuSa8",
   "siteId":"100123"，
+  "posMoney": "85.5",
   "goodsList":[{
     "goodsCode": "90301104",
     "goodsNum": "3.00"
