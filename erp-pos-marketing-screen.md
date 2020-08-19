@@ -9,5 +9,5 @@
   + [商品库存信息同步](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp-pos/goods-storage-sync.md)
   + [商品价格信息同步](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp-pos/goods-price-sync.md)
   + [会员信息同步](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp-pos/goods-price-sync.md)
-  + [订单信息同步](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp-pos/goods-price-sync.md)
+  + [订单信息同步](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp-pos/order-info-sync.md)
   
