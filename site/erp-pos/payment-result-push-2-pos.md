@@ -52,7 +52,6 @@
     "code" : 10000,
     "data": {"payStyle":"wx","realPayed":3050,"discount":150},
     "msg" : "操作成功"
-    }
 }
 ```
 #### 1.10 返回成功
