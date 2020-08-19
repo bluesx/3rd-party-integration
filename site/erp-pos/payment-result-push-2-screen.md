@@ -22,7 +22,9 @@
 | siteId   | 字符串    | 是    | 100123    | 商户id |
 | accessToken   | 字符串     | 是    | o4GgauGJ9wBuSa8    | 访问授权 |
 | tradesId   | 字符串    | 是    |   90301104  | 订单编号 |
-| screenMoney   | 整型    | 是    |   3050  | 码屏订单金额，单位:分|
+| realPayed   | 整型    | 是    |   3050  | 码屏订单金额，单位:分|
+| discount   | 整型    | 是    |   150  | 码屏订单金额，单位:分|
+| payStyle   | 整型    | 是    |   150  | 码屏订单金额，单位:分|
 --------------------- 
 #### 1.7 请求示例
 ```
@@ -31,7 +33,9 @@
   "accessToken": "o4GgauGJ9wBuSa8",
   "siteId":"100123"，
   "tradesId": "1003091597816193975",
-  "screenMoney": 3050
+  "payStyle":"wx",
+  "realPayed":3050,
+  "discount":150
 }
 ```
 #### 1.8 返回参数
@@ -46,7 +50,7 @@
  ``` 
 {
     "code" : 10000,
-    "data": {"payStyle":"wx","realPayed":3050},
+    "data": {"payStyle":"wx","realPayed":3050,"discount":150},
     "msg" : "操作成功"
     }
 }
@@ -55,7 +59,7 @@
 ```
 {
   "code": 10000,
-  "data": {"payStyle":"wx","realPayed":3050},
+  "data": {"payStyle":"wx","realPayed":3050,"discount":150},
   "msg":"操作成功"
 }
 ```
