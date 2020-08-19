@@ -12,7 +12,7 @@
 #### 1.4 接口定义方
 > 线上系统
 #### 1.5 接口路径
-> /offline/screen/qrcodePayment
+> /offline/screen/qrcodePay
 #### 1.4 数据流向
 > 消费者手机端-->线上系统-->码屏</br>
 > 消费者手机端-->线上系统-->POS
