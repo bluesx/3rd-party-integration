@@ -21,7 +21,9 @@
 | siteId   | 字符串    | 是    | 100123    | 商户id |
 | accessToken   | 字符串     | 是    | o4GgauGJ9wBuSa8    | 访问授权 |
 | goodsCode   | 字符串    | 是    |   90301104  | 商品编码 |
+| goodsPrice   | 字符串    | 是    |   2.0  | 商品单价 |
 | goodsNum   | 浮点型    | 是    |   1.0  | 商品数量 |
+| posMoney   | 浮点型    | 是    |   1.0  | POS计算金额 |
 --------------------- 
 #### 1.7 请求示例
 ```
@@ -31,15 +33,13 @@
   "siteId":"100123"，
   "goodsList":[{
     "goodsCode": "90301104",
-    "specification": "10*10",
-    "state": "0",
-    "inventoryQuantity": "39.00"
+    "goodsNum": "3.00"
+    "goodsPrice": "2.0"
   },
   {
     "goodsCode": "90301105",
-    "specification": "10*10",
-    "state": "0",
-    "inventoryQuantity": "22.00"
+    "goodsNum": "2.00"
+    "goodsPrice": "5.0"
   }]
 }
 ```
