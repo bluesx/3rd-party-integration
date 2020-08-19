@@ -8,4 +8,5 @@
   + [支付结果推送POS](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp-pos/payment-result-push-2-pos.md)
   + [商品库存信息同步](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp-pos/goods-storage-sync.md)
   + [商品价格信息同步](https://github.com/bluesx/3rd-party-integration/blob/master/site/erp-pos/goods-price-sync.md)
+  11
   
